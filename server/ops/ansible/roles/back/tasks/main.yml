@@ -1,0 +1,15 @@
+---
+
+- name : Install back
+  copy:
+    src: /builds/Grimaras/devops/artifacts/back.tar.gz
+    dest: /opt/
+
+- name : Install node
+  apt:
+    update_cache: yes
+    name: npm
+  become: yes
+
+- name : Install node modules
+  command: cp /opt/back/back.service /etc/systemd/system/back.service

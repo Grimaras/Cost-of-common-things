@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "b258c283-6d99-461d-8c32-3b31525bba2f",
+		"name": "XPS Team",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GameStats",
+			"item": [
+				{
+					"name": "create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"componentIds\" : [\"54FR\", \"12frfr\", \"1239ADGR03\"],\n\t\"score\" : 456,\n\t\"timestamp\" : 1585064232\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/api/gamestats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"gamestats"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "readAll",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/gamestats",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"gamestats"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "component",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idProject\": 1,\n\t\"idEtape\": 2,\n\t\"name\": \"SUPER QUALCOM 75041X\",\n    \"description\": \"ok pour griller du bacon\",\n    \"image\": \"ThisIsABigPicture\",\n    \"criteres\": {\n        \"prix\": 0.5,\n        \"eco\": -45,\n        \"perf\": 3,\n        \"design\": 0\n    },\n    \"etapesFabrication\": [\n        {\n            \"idEtape\": 1,\n            \"localisation\": {\n                \"name\": \"Mine de fer\",\n                \"codePays\": \"RU\",\n                \"description\": \"Une grande mine de fer\",\n                \"gps\": {\n                    \"x\": 1258.54,\n                    \"y\": 458175.98\n                }\n            }\n        },\n        {\n            \"idEtape\": 1,\n            \"localisation\": {\n                \"name\": \"Mine de cuivre\",\n                \"codePays\": \"CG\",\n                \"description\": \"Une grande mine de cuivre\",\n                \"gps\": {\n                    \"x\": 13532.22,\n                    \"y\": 9324.67\n                }\n            }\n        },\n        {\n            \"idEtape\": 2,\n            \"localisation\": {\n                \"name\": \"Usine de métal\",\n                \"codePays\": \"JP\",\n                \"description\": \"Une fonderie de métal\",\n                \"gps\": {\n                    \"x\": 668.1,\n                    \"y\": 19882.43\n                }\n            }\n        }\n    ]\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://116.203.106.9/api/components",
+							"protocol": "http",
+							"host": [
+								"116",
+								"203",
+								"106",
+								"9"
+							],
+							"path": [
+								"api",
+								"components"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idProject\": 1,\n\t\"idEtape\": 2,\n\t\"name\": \"The best coque ever\",\n    \"description\": \"rinoshield\",\n    \"image\": \"ThisIsABigPicture\",\n    \"criteres\": {\n        \"prix\": 2,\n        \"eco\": 4,\n        \"perf\": 2,\n        \"design\": 5\n    },\n    \"etapesFabrication\": [\n        {\n            \"idEtape\": 1,\n            \"localisation\": {\n                \"name\": \"Extraction de prétrole\",\n                \"codePays\": \"SA\",\n                \"description\": \"petrole\",\n                \"gps\": {\n                    \"x\": 1258.54,\n                    \"y\": 458175.98\n                }\n            }\n        },\n        {\n            \"idEtape\": 2,\n            \"localisation\": {\n                \"name\": \"Usine de coque en plastique\",\n                \"codePays\": \"CH\",\n                \"description\": \"Rafinerie\",\n                \"gps\": {\n                    \"x\": 668.1,\n                    \"y\": 19882.43\n                }\n            }\n        }\n    ]\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://116.203.106.9/api/components",
+							"protocol": "http",
+							"host": [
+								"116",
+								"203",
+								"106",
+								"9"
+							],
+							"path": [
+								"api",
+								"components"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "readAll",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost/api/components",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"components"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "cost-of-common-things-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Grimaras/cost-of-common-things-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Grimaras/cost-of-common-things-server/issues"
+  },
+  "homepage": "https://gitlab.com/Grimaras/cost-of-common-things-server#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.2"
+  }
+}
