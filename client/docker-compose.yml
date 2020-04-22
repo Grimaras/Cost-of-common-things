@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - "81:7777"
+    environment:
+      - REDIS_HOST=redis
+  redis:
+    image: "redis:alpine"
