@@ -16,9 +16,6 @@ router.route('/components')
     .get(handlersComponents.getData)
     .delete(handlersComponents.clearData);
 
-router.route('/heatmap')
-    .get(handlers.heatmap)
-
 router.route('/*')
     .get(handlers.default)
 

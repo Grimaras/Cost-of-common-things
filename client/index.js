@@ -3,6 +3,7 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 7777;
 const routeApi = require('./routes/routeApi')
+const routeDetails = require('./routes/routeDetails')
 const config = require('./config')
 
 console.log("Trying to connect on ... ", config.redisHost);
@@ -11,6 +12,7 @@ console.log("Trying to connect on ... ", config.redisHost);
 app.use(cors());
 app.use(express.json());
 app.use('/api', routeApi);
+app.use('/details', routeDetails);
 app.use(express.static('gui/build'));
 
 app.listen(port, () => {

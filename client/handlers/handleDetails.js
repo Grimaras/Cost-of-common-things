@@ -1,12 +1,19 @@
 const rp = require('request-promise');
 var fs = require('fs');
 
-exports.home = (req, res) => {
+exports.details = (req, res) => {
     try {
-        const msg = '<h2>Welcome to Aperture Science Enrichissement Center !</h2><img src="https://i.ytimg.com/vi/AenC4B59rSA/maxresdefault.jpg"/>';
-
-        res.set('Content-Type', 'text/html');
-        res.status(200).send(msg);
+        fs.readFile('./heatmap.html', 'utf8', function(err, data) {
+            if (!err) {
+                res.setHeader('Content-type' , 'text/html');
+                res.end(data);
+                //console.log( req.url, mimetype );
+            } else {
+                console.log ('file not found: ' + req.url);
+                res.writeHead(404, "Not Found");
+                res.end();
+            }
+        });
     } catch (err) {
         return res.status(400)
             .json({
@@ -16,12 +23,21 @@ exports.home = (req, res) => {
     }
 };
 
-exports.alive = (req, res) => {
+exports.heatmap = (req, res) => {
     try {
-        const msg = '<h2>I\'m alive !</h2>';
-
-        res.set('Content-Type', 'text/html');
-        res.status(200).send(msg);
+        fs.readFile('./heatmap.html', function(err, data) {
+            if (!err) {
+                var newData = data.replace(/\/\*-\*\/.*\/\*-\*\//g, req.params.startp);
+                newData = newData.replace(/\/\*_\*\/.*\/\*_\*\//g, req.params.endp);
+                res.setHeader('Content-type' , 'text/html');
+                res.end(newData);
+                //console.log( req.url, mimetype );
+            } else {
+                console.log ('file not found: ' + req.url);
+                res.writeHead(404, "Not Found");
+                res.end();
+            }
+        });
     } catch (err) {
         return res.status(400)
             .json({
@@ -31,21 +47,7 @@ exports.alive = (req, res) => {
     }
 };
 
-exports.gameresult = (req, res) => {
-    try {
-        console.log(req.body);
-
-        res.send(req.body);
-    } catch (err) {
-        return res.status(400)
-            .json({
-                message: 'Whoops, an error has occured',
-                error: err
-            });
-    }
-};
-
-exports.default = (request, response) => {
+exports.detailsDefault = (request, response) => {
     try {
         fs.readFile('./' + request.url, function(err, data) {
             if (!err) {
