@@ -64,7 +64,7 @@ export const GameResult = () => {
                             <article>
                                 <p className="title is-5 is-spaced">Réussite de votre projete :</p>
                                 <hr />
-                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 140 }}>{resShow}%</p>
+                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 140 }} >{resShow}%</p>
                             </article>
                         </div>
 
