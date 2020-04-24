@@ -4,6 +4,8 @@ COPY ./gui .
 RUN ls -l
 RUN npm set progress=false
 RUN npm install
+RUN npm install highcharts
+RUN npm install highcharts-react-official
 RUN npm run build
 
 WORKDIR /app
