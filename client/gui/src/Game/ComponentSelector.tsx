@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {useSelector} from "react-redux";
 import {IAppState} from "../redux/reducer";
 import _ from "lodash";
@@ -14,6 +14,13 @@ export const ComponentSelector = () => {
     const currentComposants = _.filter(composants, (c) => c.idEtape === currentStep);
     const userComposants = useSelector((app: IAppState) => app.game!.components);
     const bans = _.flatMap(userComposants, (c) => c.bans);
+
+    const [data, setData] = useState(undefined);
+
+    useEffect(() => {
+
+    }, []);
+
     console.log("Bans : ", bans);
 
     console.log("Composants : ", composants);
