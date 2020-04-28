@@ -22,13 +22,8 @@ export const GameResultGraph = () => {
     useEffect(() =>  {
        fetch("http://localhost:82/api/scenario/id/" + scenID).then(console.log)
     });
-
-
-
-
-
     return (
-     
+        <Line data={{ datasets: [{label: "Test", data: [1,2]}], labels: ["", ""]}} />
     );
 
 };
