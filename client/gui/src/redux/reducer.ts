@@ -10,6 +10,7 @@ export const companionLoadDone = createAction<any[]>("COMPANION_LOAD_DONE");
 
 export const goToObjective = createAction("GOTO_OBJECTIVE");
 export const startGame  = createAction("START_GAME");
+export const stopGame  = createAction("STOP_GAME");
 export const setStep = createAction<number>("SET_GAME_STEP");
 export const setFocusedComponent = createAction<string>("SET_GAME_FOCUSED_COMPONENT");
 
@@ -30,6 +31,9 @@ export interface IAppState {
         scenarioId: number;
         rAndD: number;
         cost: number;
+        score?: number;
+        eco?: number;
+        perf?: number;
         history: {
             rAndD: number[];
             cost: number[];
@@ -153,7 +157,36 @@ export const counterReducer = createReducer(initialState, {
     [receptResult.type]: (state, action ) => ({...state,
         gameResult: action.payload
     }),
+    [stopGame.type]: (state, action) => {
+        const sommeAll = _.reduce(state.game!.components, (acc, element) => {
+            return {
+                eco: acc.eco + element.criteres.eco,
+                perf: acc.perf + element.criteres.perf,
+                prix: acc.prix + element.criteres.prix
+            }
+        }, {
+            eco: 0,
+            perf: 0,
+            prix: 0
+        });
 
+        console.log("Somme all = ", sommeAll);
+
+        const scenario = ScenariosObjectifs[state.game!.scenarioId];
+
+        var resTarget = scenario.criteres.prix + scenario.criteres.perf;
+        var resProcent = Math.round(((sommeAll.perf + sommeAll.prix)*100)/resTarget);
+        const resShow = resProcent > 100 ? resProcent - ((resProcent - 100)*2) :  resProcent;
+
+        return {...state,
+            game: {...state.game!,
+                score: resShow,
+                cost: sommeAll.prix,
+                eco: sommeAll.eco,
+                perf: sommeAll.perf
+            }
+        }
+    }
 });
 
 (window as any).CompanionPong = () => store.dispatch(companionSendPong());

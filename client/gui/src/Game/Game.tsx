@@ -6,7 +6,7 @@ import {GameResult} from "./GameResult";
 import {HUD} from "./Hud";
 import {store} from "../redux/store";
 import {HTTPClient} from "../http/Client";
-import {gameTick} from "../redux/reducer";
+import {gameTick, stopGame} from "../redux/reducer";
 import {IAppState, setStep} from "../redux/reducer";
 import _ from "lodash";
 import {HUDCharts} from "./HUDCharts";
@@ -28,10 +28,11 @@ export const endGame = () => {
     stopGameTicking();
     const dispatch = store.dispatch;
     const state = store.getState();
-    HTTPClient.POST("/gameresult", state.game).then((res) => {
+    dispatch(stopGame());
+    HTTPClient.POST("/gameresult", store.getState().game).then((res) => {
         // TODO: ICI DUDEK FAIT UN TRUC POUR AFFICHER LES RESULTATS :)
         res.json().then((components) => {
-         /*   myDataRaw = JSON.parse(JSON.stringify(components));*/
+            /*   myDataRaw = JSON.parse(JSON.stringify(components));*/
             dispatch(receptResult(JSON.parse(JSON.stringify(components))));
             showData = true;
             console.log(components);

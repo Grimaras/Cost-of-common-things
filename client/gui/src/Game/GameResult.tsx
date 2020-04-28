@@ -40,16 +40,6 @@ export const GameResult = () => {
     var resProcent = Math.round(((sommeAll.perf + sommeAll.prix)*100)/resTarget);
     const resShow = resProcent > 100 ? resProcent - ((resProcent - 100)*2) :  resProcent;
 
-
-    /*
-    GRAPH
-    Les 5 derniers partis avec le meme scénario?
-    */
-
-
-
-
-
     return (
         <section className="hero is-medium is-primary is-bold is-fullheight">
             <HUD/>
