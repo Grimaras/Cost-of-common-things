@@ -4,8 +4,14 @@ import {HUD} from "./Hud";
 import {useSelector} from 'react-redux';
 import {IAppState} from "../redux/reducer";
 import {ScenariosObjectifs} from "./Objective";
+import {GameResultGraph} from "./GameResultGraph";
+
 
 export const GameResult = () => {
+
+
+    /* R&D */
+    const rAndDVal = useSelector((appState: IAppState) => appState.game!.rAndD);
 
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
     const scenario = ScenariosObjectifs[objectiveNb!];
@@ -35,6 +41,13 @@ export const GameResult = () => {
     const resShow = resProcent > 100 ? resProcent - ((resProcent - 100)*2) :  resProcent;
 
 
+    /*
+    GRAPH
+    Les 5 derniers partis avec le meme scénario?
+    */
+
+
+
 
 
     return (
@@ -49,14 +62,17 @@ export const GameResult = () => {
                     <div className="columns">
                         <div className="column">
                             <article >
-                                <div className="is-vcentered">
+
                                     <p className="title is-5">Votre score : </p>
                                     <hr />
-                                    <p className="subtitle" style={{marginTop: 40 }}> Valeur preformance : {Math.round(sommeAll.perf)} / {scenario.criteres.perf}</p>
-                                    <progress className="progress is-danger" value={sommeAll.perf} max={scenario.criteres.perf}>90%</progress>
-                                    <p className="subtitle" style={{marginTop: 50 }} > Valeur prix : {Math.round(sommeAll.prix)} / {scenario.criteres.prix}</p>
-                                    <progress className="progress is-warning" style={{marginBottom: 30 }} value={Math.round(sommeAll.prix)} max={scenario.criteres.prix}>45%</progress>
-                                </div>
+                                    <div className="is-vcentered">
+                                        <p className="subtitle" style={{marginTop: 40 }}> Valeur preformance : {Math.round(sommeAll.perf)} / {scenario.criteres.perf}</p>
+                                        <progress className="progress is-danger" value={sommeAll.perf} max={scenario.criteres.perf}></progress>
+                                        <p className="subtitle" style={{marginTop: 20 }} > Valeur prix : {Math.round(sommeAll.prix)} / {scenario.criteres.prix}</p>
+                                        <progress className="progress is-warning" style={{marginBottom: 20 }} value={Math.round(sommeAll.prix)} max={scenario.criteres.prix}></progress>
+                                        <p className="subtitle" style={{marginBottom: 20}}> Valeur R&D : {Math.round(rAndDVal)} / {scenario.criteres.rAndD} </p>
+                                        <progress className="progress is-success" style={{marginBottom: 20 }} value={Math.round(rAndDVal)} max={scenario.criteres.rAndD}></progress>
+                                    </div>
                             </article>
                         </div>
 
@@ -64,7 +80,7 @@ export const GameResult = () => {
                             <article>
                                 <p className="title is-5 is-spaced">Réussite de votre projete :</p>
                                 <hr />
-                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 140 }} >{resShow}%</p>
+                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 160 }} >{resShow}%</p>
                             </article>
                         </div>
 
@@ -74,6 +90,7 @@ export const GameResult = () => {
                                 <hr />
                                 <div className="is-vcentered is-centered">
                                     <p className="is-2 has-text-danger">ICI METTRE UN BEAU GRAPHE</p>
+                                    <GameResultGraph />
                                 </div>
                             </article>
                         </div>
