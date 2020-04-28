@@ -1,5 +1,8 @@
 const rp = require('request-promise');
-var fs = require('fs');
+var fs = require('fs')
+
+const SERVICE_ADDRESS = process.env["SERVICE_HOST"] || "3.229.135.170";
+const SERVICE_PORT = process.env["SERVICE_PORT"] || "80";
 
 exports.home = (req, res) => {
     try {
@@ -22,6 +25,22 @@ exports.alive = (req, res) => {
 
         res.set('Content-Type', 'text/html');
         res.status(200).send(msg);
+    } catch (err) {
+        return res.status(400)
+            .json({
+                message: 'Whoops, an error has occured',
+                error: err
+            });
+    }
+};
+
+exports.getGameResult = async (req, res) => {
+    try {
+        console.log(req.params.scenario);
+        const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats/scenario/${req.params.scenario}`, json: true});
+        console.log(server_data);
+
+        res.send(req.body);
     } catch (err) {
         return res.status(400)
             .json({

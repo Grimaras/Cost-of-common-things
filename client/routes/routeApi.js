@@ -10,7 +10,10 @@ router.route('/alive')
     .get(handlers.alive)
 
 router.route('/gameresult')
-    .post(handlers.gameresult)
+    .post(handlers.gameresult);
+
+router.route('/stats/:scenario')
+    .get(handlers.getGameResult);
 
 router.route('/components')
     .get(handlersComponents.getData)
