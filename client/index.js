@@ -16,7 +16,8 @@ app.use('/details', routeDetails);
 app.use(express.static('gui/build'));
 
 app.listen(port, () => {
-    console.log(`Listening on port: ${port}`)
+    console.log(`Listening on port: ${port}`);
+    console.error("Updated ");
 });
 
 config.redisClient.on('connect', function() {

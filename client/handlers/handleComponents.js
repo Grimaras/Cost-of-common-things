@@ -10,6 +10,7 @@ exports.getData = (req, res) => {
         config.redisClient.get('data', async function(err, object) {
             if (object === null)
             {
+                console.log("Port : " + SERVICE_PORT);
                 const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/components`, json: true });
 
                 config.redisClient.set('data', JSON.stringify(server_data));
