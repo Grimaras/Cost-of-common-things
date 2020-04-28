@@ -6,6 +6,11 @@ services:
       - "81:7777"
     environment:
       - REDIS_HOST=redis
+      - SERVICE_HOST=back
+      - SERVICE_PORT=3000
+    depends_on:
+      - back
+      - redis
   redis:
     image: "redis:alpine"
   mongo:
@@ -15,4 +20,11 @@ services:
     ports:
       - "82:3000"
     environment:
+      - DB_HOST=mongo
       - PORT=3000
+    depends_on:
+      - mongo
+  data_importer:
+    image: "dkfn/coct-dataimporter:dev"
+    depends_on:
+      - back
