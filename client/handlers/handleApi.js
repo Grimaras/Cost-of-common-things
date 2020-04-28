@@ -42,7 +42,7 @@ exports.getGameResult = async (req, res) => {
         const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats/scenario/${req.params.scenario}`, json: true});
         console.log(server_data);
 
-        res.send(req.body);
+        res.send(server_data);
     } catch (err) {
         return res.status(400)
             .json({
