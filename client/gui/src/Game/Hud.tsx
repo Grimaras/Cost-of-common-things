@@ -23,12 +23,13 @@ export const HUD = () => {
         _.map(composants, (c) => c.criteres.prix),
         (acc, a) => a + acc, 0);
 
-    return (
+    return null;
+    /*return (
         <div style={hudContainerStyle}>
             <div style={hudStyle} className="notification is-success">
                 Cout de Fab. : {componentPrice}.00$ | Budget R&D {rAndD}.00$
             </div>
         </div>
-    )
+    )*/
 };
 

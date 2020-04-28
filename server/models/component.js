@@ -12,6 +12,10 @@ const componentSchema = new mongoose.Schema({
         type : Number,
         required : true,
     },
+    idComponent: { // Id interne destine a ne jamais changer
+        type: Number,
+        required: true
+    },
     name : {
         type : String,
         required : true,
@@ -25,12 +29,17 @@ const componentSchema = new mongoose.Schema({
     etapesFabrication : {
         type : [fabrication],
         required : true,
-        min : 0,
+        min : 0
+    },
+    bans: {
+        type: [String],
+        required: true,
+        default: [] // Contiens les id internes des composants bannis par ce choix
     },
     criteres : {
         type : criteres,
-        required : true,
-    },
+        required : true
+    }
 });
 
 //model

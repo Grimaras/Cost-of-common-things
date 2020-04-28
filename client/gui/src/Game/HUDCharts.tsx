@@ -1,29 +1,9 @@
 import React from "react";
-import * as Highcharts from 'highcharts';
-import HighchartsReact from 'highcharts-react-official';
 import {Line} from "react-chartjs-2";
 import {useSelector} from "react-redux";
 import {IAppState} from "../redux/reducer";
 import _ from "lodash";
 import {ScenariosObjectifs} from "./Objective";
-
-const options = {
-    title: {
-        text: 'My chart'
-    },
-    tooltip: {
-        enabled: false
-    },
-    credits: {
-        enabled: false
-    },
-    legend: {
-        enabled: false
-    },
-    series: [{
-        data: [1, 2, 3]
-    }]
-};
 
 interface ILittleChart {
     data: number[],
