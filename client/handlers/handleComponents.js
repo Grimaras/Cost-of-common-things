@@ -3,13 +3,14 @@ const redis = require('redis');
 const config = require('../config')
 
 const SERVICE_ADDRESS = process.env["SERVICE_HOST"] || "3.229.135.170";
+const SERVICE_PORT = process.env["SERVICE_PORT"] || "80";
 
 exports.getData = (req, res) => {
     try {
         config.redisClient.get('data', async function(err, object) {
             if (object === null)
             {
-                const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:80/api/components`, json: true });
+                const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/components`, json: true });
 
                 config.redisClient.set('data', JSON.stringify(server_data));
 
