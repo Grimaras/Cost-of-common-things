@@ -1,8 +1,4 @@
-FROM ubuntu:latest
-WORKDIR /data
-RUN apt update
-RUN apt upgrade -y
-RUN apt install -y httpie
+FROM node:latest
 COPY . .
-RUN chmod +x test.sh
-CMD ["./test.sh"]
+RUN npm install
+CMD ["node", "index.js"]

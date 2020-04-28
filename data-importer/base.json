@@ -1,0 +1,1538 @@
+[
+  {
+    "_id": "5e9f85846097492b69d95db3",
+    "idComponent": 1,
+    "idProject": 1,
+    "idEtape": 1,
+    "name": "Little Buster 2000",
+    "description": "Batterie de très fine et résistante",
+    "image": "Batterie4",
+    "criteres": {
+      "prix": 10,
+      "eco": 72.91,
+      "perf": 75,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Lithium",
+          "codePays": "AU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Manganese",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Coltan",
+          "codePays": "CG",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85856097492b69d95db4",
+    "idComponent": 2,
+    "idProject": 1,
+    "idEtape": 1,
+    "name": "Die Leistung",
+    "description": "Batterie fine et résistante",
+    "image": "Batterie3",
+    "criteres": {
+      "prix": 7,
+      "eco": 86.29,
+      "perf": 60,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Lithium",
+          "codePays": "CL",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Manganese",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Coltan",
+          "codePays": "RW",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85856097492b69d95db5",
+    "idComponent": 3,
+    "idProject": 1,
+    "idEtape": 1,
+    "name": "X9 artisticice",
+    "description": "Batterie à très grosse capacité mais peu résistante",
+    "image": "Batterie2",
+    "criteres": {
+      "prix": 4,
+      "eco": 136.63,
+      "perf": 95,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Lithium",
+          "codePays": "AU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Manganese",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Coltan",
+          "codePays": "CG",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85856097492b69d95db6",
+    "idComponent": 4,
+    "idProject": 1,
+    "idEtape": 1,
+    "name": "SAFT LS14250",
+    "description": "Batterie grosse capacité mais peu résistante",
+    "image": "Batterie1",
+    "criteres": {
+      "prix": 2,
+      "eco": 151.01,
+      "perf": 90,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Lithium",
+          "codePays": "CL",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Manganese",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Coltan",
+          "codePays": "BR",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85856097492b69d95db7",
+    "idComponent": 5,
+    "idProject": 1,
+    "idEtape": 2,
+    "name": "Screen XXL",
+    "description": "Un écran invisible !",
+    "image": "Ecran4",
+    "criteres": {
+      "prix": 150,
+      "eco": 20,
+      "perf": 97,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Indium",
+          "codePays": "KR",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Tin",
+          "codePays": "ID",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Sable",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Aluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85866097492b69d95db8",
+    "idComponent": 6,
+    "idProject": 1,
+    "idEtape": 2,
+    "name": "Screen XL",
+    "description": "Un grand ecran",
+    "image": "Ecran3",
+    "criteres": {
+      "prix": 80,
+      "eco": 38.4,
+      "perf": 85,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Indium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Tin",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Sable",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Aluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85866097492b69d95db9",
+    "idComponent": 7,
+    "idProject": 1,
+    "idEtape": 2,
+    "name": "Screen L",
+    "description": "Un ecran de taille moyenne",
+    "image": "Ecran2",
+    "criteres": {
+      "prix": 68,
+      "eco": 30.17,
+      "perf": 57,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Indium",
+          "codePays": "KR",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Tin",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Sable",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Aluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "RU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85866097492b69d95dba",
+    "idComponent": 8,
+    "idProject": 1,
+    "idEtape": 2,
+    "name": "Screen M",
+    "description": "Un tout petit écran",
+    "image": "Ecran1",
+    "criteres": {
+      "prix": 25,
+      "eco": 10.97,
+      "perf": 16,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Indium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Tin",
+          "codePays": "MM",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Sable",
+          "codePays": "US",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Aluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85866097492b69d95dbb",
+    "idComponent": 9,
+    "idProject": 1,
+    "idEtape": 3,
+    "name": "Appeul A12Y",
+    "description": "Processeur dernier cri, extremement performant mais très compliqué à produire",
+    "image": "Soc4",
+    "criteres": {
+      "prix": 90,
+      "eco": 39.38,
+      "perf": 95,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Arsenic",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Phosphore",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Galium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Antimoine",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85866097492b69d95dbc",
+    "idComponent": 10,
+    "idProject": 1,
+    "idEtape": 3,
+    "name": "Quadpom Snaptiger",
+    "description": "Un processeur efficace et performant mais compliqué à produire",
+    "image": "Soc3",
+    "criteres": {
+      "prix": 75,
+      "eco": 32.81,
+      "perf": 65,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "RU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Arsenic",
+          "codePays": "MA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Phosphore",
+          "codePays": "MA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Galium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Antimoine",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85876097492b69d95dbd",
+    "idComponent": 11,
+    "idProject": 1,
+    "idEtape": 3,
+    "name": "Mediapeck 90P",
+    "description": "Un processeur milieu de gamme",
+    "image": "Soc2",
+    "criteres": {
+      "prix": 40,
+      "eco": 5.25,
+      "perf": 45,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Arsenic",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Phosphore",
+          "codePays": "MA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Galium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Antimoine",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85876097492b69d95dbe",
+    "idComponent": 12,
+    "idProject": 1,
+    "idEtape": 3,
+    "name": "Sephiros 360",
+    "description": "Un processeur pas cher et peu puissant",
+    "image": "Soc1",
+    "criteres": {
+      "prix": 25,
+      "eco": 6.56,
+      "perf": 15,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Silicium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Arsenic",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Phosphore",
+          "codePays": "MA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Galium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Antimoine",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85876097492b69d95dbf",
+    "idComponent": 13,
+    "idProject": 1,
+    "idEtape": 4,
+    "name": "Cortex Revanche 16 Go",
+    "description": "Un sacree paquet de ram !",
+    "image": "Ram4",
+    "criteres": {
+      "prix": 25,
+      "eco": 67.86,
+      "perf": 100,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "idComponent": 14,
+    "_id": "5e9f85876097492b69d95dc0",
+    "idProject": 1,
+    "idEtape": 4,
+    "name": "GSkull SceptreZ 8 Go",
+    "description": "Quand il n'y en a plus, il y en a encore !",
+    "image": "Ram3",
+    "criteres": {
+      "prix": 11.5,
+      "eco": 36.19,
+      "perf": 50,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "RU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "MX",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85876097492b69d95dc1",
+    "idComponent": 15,
+    "idProject": 1,
+    "idEtape": 4,
+    "name": "GSkull unity 4 Go",
+    "description": "De la bonne ram pour tout faire.",
+    "image": "Ram2",
+    "criteres": {
+      "prix": 5.75,
+      "eco": 18.1,
+      "perf": 25,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CL",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "AU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85886097492b69d95dc2",
+    "idComponent": 16,
+    "idProject": 1,
+    "idEtape": 4,
+    "name": "Gigabytes exostion 2 Go",
+    "description": "La qualité pour tous !",
+    "image": "Ram1",
+    "criteres": {
+      "prix": 2.5,
+      "eco": 7.24,
+      "perf": 12.5,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "MX",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85886097492b69d95dc3",
+    "idComponent": 17,
+    "idProject": 1,
+    "idEtape": 5,
+    "name": "Samsing 1 To",
+    "description": "Unlimited Infinity X",
+    "image": "Stockage4",
+    "criteres": {
+      "prix": 200,
+      "eco": 135.72,
+      "perf": 95,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "RU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "MX",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85886097492b69d95dc4",
+    "idComponent": 18,
+    "idProject": 1,
+    "idEtape": 5,
+    "name": "Samsing 256 Go",
+    "description": "De quoi tout avoir sous la main !",
+    "image": "Stockage3",
+    "criteres": {
+      "prix": 100,
+      "eco": 67.86,
+      "perf": 73,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85886097492b69d95dc5",
+    "idComponent": 19,
+    "idProject": 1,
+    "idEtape": 5,
+    "name": "Sundisk 64 Go",
+    "description": "Un très bon petit stockage !",
+    "image": "Stockage2",
+    "criteres": {
+      "prix": 50,
+      "eco": 33.93,
+      "perf": 54,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CL",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "AU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85896097492b69d95dc6",
+    "idComponent": 20,
+    "idProject": 1,
+    "idEtape": 5,
+    "name": "KingSand 32 Go",
+    "description": "Petit mais bien !",
+    "image": "Stockage1",
+    "criteres": {
+      "prix": 20,
+      "eco": 6.79,
+      "perf": 36,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Cuivre",
+          "codePays": "CL",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Or",
+          "codePays": "AU",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Argent",
+          "codePays": "PE",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Platine",
+          "codePays": "ZA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85896097492b69d95dc7",
+    "idComponent": 21,
+    "idProject": 1,
+    "idEtape": 6,
+    "name": "Rios X 256",
+    "description": "Tout est a porte de main",
+    "image": "Coque4",
+    "criteres": {
+      "prix": 90,
+      "eco": 20.04,
+      "perf": 95,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Petrol",
+          "codePays": "SA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Acier",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Alluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85896097492b69d95dc8",
+    "idComponent": 22,
+    "idProject": 1,
+    "idEtape": 6,
+    "name": "Dinomin;a Zero",
+    "description": "Confortable et de grande taille",
+    "image": "Coque3",
+    "criteres": {
+      "prix": 77,
+      "eco": 39.94,
+      "perf": 80,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Petrol",
+          "codePays": "SA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Acier",
+          "codePays": "JP",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      },
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Alluminium",
+          "codePays": "CN",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85896097492b69d95dc9",
+    "idComponent": 23,
+    "idProject": 1,
+    "idEtape": 6,
+    "name": "Flippex",
+    "description": "Clap entre tes mains",
+    "image": "Coque2",
+    "criteres": {
+      "prix": 50,
+      "eco": 290,
+      "perf": 57,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Petrol",
+          "codePays": "SA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": "5e9f85896097492b69d95dca",
+    "idComponent": 24,
+    "idProject": 1,
+    "idEtape": 6,
+    "name": "Nakio",
+    "description": "Le retour de l'indestructible",
+    "image": "Coque1",
+    "criteres": {
+      "prix": 23,
+      "eco": 364,
+      "perf": 44,
+      "design": 0
+    },
+    "etapesFabrication": [
+      {
+        "idEtape": 1,
+        "localisation": {
+          "name": "Petrol",
+          "codePays": "SA",
+          "description": "",
+          "gps": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      }
+    ],
+    "__v": 0
+  }
+]

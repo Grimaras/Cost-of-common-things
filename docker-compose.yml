@@ -22,7 +22,9 @@ services:
     environment:
       - DB_HOST=mongo
       - PORT=3000
-  data:
+    depends_on:
+      - mongo
+  data_importer:
     build: ./data-importer
     depends_on:
       - back
