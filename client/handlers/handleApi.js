@@ -1,5 +1,7 @@
 const rp = require('request-promise');
-var fs = require('fs')
+var fs = require('fs');
+const request = require('request')
+
 
 const SERVICE_ADDRESS = process.env["SERVICE_HOST"] || "3.229.135.170";
 const SERVICE_PORT = process.env["SERVICE_PORT"] || "80";
@@ -52,7 +54,31 @@ exports.getGameResult = async (req, res) => {
 
 exports.gameresult = (req, res) => {
     try {
-        console.log(req.body);
+        var tabIds = [];
+
+        for (var i = 0; i < req.body.components.length; i++) {
+          tabIds.push(req.body.components[i]);
+        } 
+
+        request.post(`http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats`,
+          {
+            json: 
+            {
+                "componentIds" : tabIds,
+                "score" : req.body.score,
+                "scenarioID" : req.body.scenarioId,
+                "cost" : req.body.cost,
+                "rAndD" : req.body.rAndD
+            }
+          },
+          (error, res, body) => {
+            if (error) {
+              console.error(error)
+              return
+            }
+            console.log(`statusCode: ${res.statusCode}`)
+          }
+        )
 
         res.send(req.body);
     } catch (err) {

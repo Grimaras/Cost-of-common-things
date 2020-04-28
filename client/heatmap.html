@@ -14,9 +14,78 @@
       </div>
     </div>
   </div>
+  <button type="button" onclick="startAnime()">Start</button>
   <script src="./details/leaflet_heatmap_files/heatmap.js"></script>
   <script src="./details/leaflet_heatmap_files/leaflet-heatmap.js"></script>
   <script>
+
+    function startAnime()
+    {
+      console.log("aze");
+        var baseLayer = L.tileLayer(
+          'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+            maxZoom: 18
+          }
+        );
+
+        var cfg = {
+          "radius": 2,
+          "maxOpacity": .8,
+          "scaleRadius": true,
+          "useLocalExtrema": true,
+          latField: 'lat',
+          lngField: 'lng',
+          valueField: 'count'
+        };
+
+        var heatmapLayer = new HeatmapOverlay(cfg);
+
+
+        /*-*/startPoint = [{lat: 35.8278, lng:-78.6421, count: 1}, {lat: 46.90, lng:-117.46, count: 1}, {lat: 46.80, lng:-117.3, count: 1}];/*-*/
+
+        var testData = {
+            max: 99,
+            data: startPoint
+          };
+        heatmapLayer.setData(testData);
+
+        /*_*/endPoint = [{lat: 46.90, lng:-117.46, count: 1}, null, null];/*_*/
+
+      var refreshIntervalId = setInterval(function() {
+
+            var newData = [];
+
+            for (var i = 0; i < startPoint.length; i++)
+            {
+              if (endPoint[i] != null)
+              {
+                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[i]['lat']) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[i]['lng']))
+                {
+                  newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'], count: 1});
+                }
+                else
+                {
+                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[i]['lat'],endPoint[i]['lng']], 1);
+                  newData.push({lat: newVal[0], lng:newVal[1], count: 1});
+                  startPoint[i]['lat'] = newVal[0];
+                  startPoint[i]['lng'] = newVal[1];
+                }
+              }
+              else
+              {
+                newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'] , count: 1});
+              }
+            }
+
+
+            var testData = {
+                max: 99,
+                data: newData
+              };
+            heatmapLayer.setData(testData);
+
+          }, 10);
+    };
 
     function movePoint(a, b, distance)
     {
@@ -61,43 +130,6 @@
         heatmapLayer.setData(testData);
 
         /*_*/endPoint = [{lat: 46.90, lng:-117.46, count: 1}, null, null];/*_*/
-
-        setTimeout(function() {
-          var refreshIntervalId = setInterval(function() {
-
-            var newData = [];
-
-            for (var i = 0; i < startPoint.length; i++)
-            {
-              if (endPoint[i] != null)
-              {
-                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[i]['lat']) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[i]['lng']))
-                {
-                  newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'], count: 1});
-                }
-                else
-                {
-                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[i]['lat'],endPoint[i]['lng']], 1);
-                  newData.push({lat: newVal[0], lng:newVal[1], count: 1});
-                  startPoint[i]['lat'] = newVal[0];
-                  startPoint[i]['lng'] = newVal[1];
-                }
-              }
-              else
-              {
-                newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'] , count: 1});
-              }
-            }
-
-
-            var testData = {
-                max: 99,
-                data: newData
-              };
-            heatmapLayer.setData(testData);
-
-          }, 10);
-        }, 1000);
     };
 
   </script>

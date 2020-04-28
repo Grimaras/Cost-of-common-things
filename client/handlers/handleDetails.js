@@ -3,6 +3,7 @@ var fs = require('fs');
 
 exports.details = (req, res) => {
     try {
+        console.log("details: " + req.url);
         fs.readFile('./heatmap.html', 'utf8', function(err, data) {
             if (!err) {
                 res.setHeader('Content-type' , 'text/html');
@@ -25,7 +26,8 @@ exports.details = (req, res) => {
 
 exports.heatmap = (req, res) => {
     try {
-        fs.readFile('./heatmap.html', function(err, data) {
+        console.log("heatmap: " + req.url);
+        fs.readFile('./heatmap.html', 'utf8', function(err, data) {
             if (!err) {
                 var newData = data.replace(/\/\*-\*\/.*\/\*-\*\//g, req.params.startp);
                 newData = newData.replace(/\/\*_\*\/.*\/\*_\*\//g, req.params.endp);
