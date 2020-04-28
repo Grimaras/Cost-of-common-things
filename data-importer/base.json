@@ -115,6 +115,7 @@
     "name": "X9 artisticice",
     "description": "Batterie à très grosse capacité mais peu résistante",
     "image": "Batterie2",
+    "bans": [24],
     "criteres": {
       "prix": 4,
       "eco": 136.63,

@@ -6,7 +6,7 @@ const statStyle = {
     marginTop: 20
 };
 
-export const ComponentDetails = ({component} : {component: any}) => {
+export const ComponentDetails = ({component, banned} : {component: any, banned: boolean}) => {
     const dispatch = useDispatch();
 
     const maxCriteraValuesPerStep = useSelector((appState: IAppState) => appState.cache.maxCriteraValues);
@@ -33,7 +33,7 @@ export const ComponentDetails = ({component} : {component: any}) => {
                 {component.description}
             </p>
             <hr />
-            <button className="button is-success" onClick={onClick}>
+            <button className="button is-success" onClick={onClick} disabled={banned}>
                 Selectionner
             </button>
         </>

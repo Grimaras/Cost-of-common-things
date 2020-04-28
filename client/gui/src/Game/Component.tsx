@@ -9,7 +9,8 @@ const IMG_H = 128;
 const IMG_W = 128;
 
 interface IComponentProps {
-    composant: IComposant
+    composant: IComposant,
+    banned: boolean
 }
 
 export const Component = (props: IComponentProps) => {
@@ -20,12 +21,12 @@ export const Component = (props: IComponentProps) => {
     console.log("Rendering component", props.composant);
 
     const image = imagesTable[props.composant.image];
-    return <div className={"notification is-dark"} style={{width: 200, height: 800, padding: 10, cursor: 'pointer'}} onClick={onClick}>
+    return <div className={"notification is-dark"} style={{width: 200, height: 800, padding: 10, cursor: 'pointer', opacity: props.banned ? 0.2 : 1}} onClick={onClick}>
         <p style={{height: 48}}>{props.composant.name}</p>
         <hr />
         <img src={image} height={IMG_H} width={IMG_W} style={{userSelect: 'none'}}/>
         <hr />
-        <ComponentDetails component={props.composant}/>
+        <ComponentDetails component={props.composant} banned={props.banned}/>
     </div>;
 
 };

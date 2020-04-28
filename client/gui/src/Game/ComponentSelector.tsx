@@ -13,10 +13,13 @@ export const ComponentSelector = () => {
     const currentStep = useSelector((app: IAppState) => app.game!.currentStep);
     const currentComposants = _.filter(composants, (c) => c.idEtape === currentStep);
     const userComposants = useSelector((app: IAppState) => app.game!.components);
+    const bans = _.flatMap(userComposants, (c) => c.bans);
+    console.log("Bans : ", bans);
 
     console.log("Composants : ", composants);
     console.log("Etape courante : ", currentStep);
     console.log("Current Composants : ", currentComposants);
+    console.log("Usr Composants : ", userComposants);
 
     const selectionIisFull = userComposants && (userComposants.length === finalStep - 1);
 
@@ -27,7 +30,7 @@ export const ComponentSelector = () => {
             <div style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-around', textAlign: 'center'}}>
                 {
                     currentComposants.map((c: IComposant, k: number) => {
-                        return <Component composant={c}/>;
+                        return <Component composant={c} banned={bans.includes(c.idComponent.toString())}/>;
                     })
                 }
             </div>

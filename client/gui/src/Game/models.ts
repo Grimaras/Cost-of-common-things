@@ -22,11 +22,13 @@ export interface IComposantCriteres {
 
 export interface IComposant {
     _id: string;
+    idComponent: string;
     idProject: number;
     idEtape: number;
     name: string;
     description: string;
     image: string;
+    bans: string[];
     criteres: IComposantCriteres;
     etapesFabrication: IComposantEtapeFabrication[];
 }
