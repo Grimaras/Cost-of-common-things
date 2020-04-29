@@ -128,7 +128,7 @@
                 }
                 else
                 {
-                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[0],endPoint[1]], 1);
+                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[0],endPoint[1]], 2);
                   newData.push({lat: newVal[0], lng:newVal[1], count: 1});
                   startPoint[i]['lat'] = newVal[0];
                   startPoint[i]['lng'] = newVal[1];
