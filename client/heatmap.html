@@ -11,10 +11,13 @@
       padding: 10px;
       display: flex;
       justify-content: space-around;
+      visibility: hidden;
     }
   </style>
 </head>
 <body class="">
+  <br/>
+  <center>Voici les origines des différents minerais qui seront utilisés pour la conception de votre téléphone.</center>
   <div class="topButton">
     <button class="button is-button is-primary" disabled>
       Voir la suite du trajet
@@ -38,7 +41,6 @@
         </button>
       </a>
   </div>
-  <button type="button" onclick="startAnime()">Start</button>
   <script src="/api/leaflet_heatmap_files/heatmap.js"></script>
   <script src="/api/leaflet_heatmap_files/leaflet-heatmap.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
@@ -91,6 +93,11 @@
                 startMap(allGPS);
                 console.log(nextButton.children);
                 nextButton.children[0].disabled = false;
+
+                setTimeout(() => {
+                    nextButton.style.visibility = "visible";
+                  }, 4000);
+
                 nextButton.onclick = () => {
                   startAnime(allGPS);
                   console.log("Clicked");
