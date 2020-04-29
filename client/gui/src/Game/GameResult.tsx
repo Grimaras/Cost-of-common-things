@@ -81,7 +81,6 @@ export const GameResult = () => {
                                 <p className="title is-5 is-spaced">La moyenne globale :</p>
                                 <hr />
                                 <div className="is-vcentered is-centered">
-                                    <p className="is-2 has-text-danger">ICI METTRE UN BEAU GRAPHE</p>
                                     <GameResultGraph />
                                 </div>
                             </article>
