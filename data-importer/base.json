@@ -225,9 +225,9 @@
     "idProject": 1,
     "idEtape": 2,
     "name": "Screen XXL",
-    "description": "Un écran invisible !",
+    "description": "Un écran Holographique très avancé",
     "image": "Ecran4",
-	"bans": [22,23,24],
+	"bans": [11,12,22,23,24],
     "criteres": {
       "prix": 150,
       "eco": 20,
@@ -306,7 +306,7 @@
     "name": "Screen XL",
     "description": "Un grand ecran",
     "image": "Ecran3",
-	"bans": [21,23,24],
+	"bans": [12,21,23,24],
     "criteres": {
       "prix": 80,
       "eco": 38.4,
@@ -853,7 +853,7 @@
     "idProject": 1,
     "idEtape": 4,
     "name": "Cortex Revanche 16 Go",
-    "description": "Un sacree paquet de ram !",
+    "description": "16 gigas de ram de très haute qualité",
     "image": "Ram4",
     "criteres": {
       "prix": 25,
@@ -919,7 +919,7 @@
     "idProject": 1,
     "idEtape": 4,
     "name": "GSkull SceptreZ 8 Go",
-    "description": "Quand il n'y en a plus, il y en a encore !",
+    "description": "8 gigas de ram de très haute qualité",
     "image": "Ram3",
     "criteres": {
       "prix": 11.5,
@@ -985,7 +985,7 @@
     "idProject": 1,
     "idEtape": 4,
     "name": "GSkull unity 4 Go",
-    "description": "De la bonne ram pour tout faire.",
+    "description": " 4 gigas de ram de bonne qualité",
     "image": "Ram2",
     "criteres": {
       "prix": 5.75,
@@ -1051,7 +1051,7 @@
     "idProject": 1,
     "idEtape": 4,
     "name": "Gigabytes exostion 2 Go",
-    "description": "La qualité pour tous !",
+    "description": "2 gigas de ram de bonne qualité",
     "image": "Ram1",
     "criteres": {
       "prix": 2.5,
@@ -1117,7 +1117,7 @@
     "idProject": 1,
     "idEtape": 5,
     "name": "Samsing 1 To",
-    "description": "Unlimited Infinity X",
+    "description": "1 To de stockage extrèmement rapide",
     "image": "Stockage4",
     "criteres": {
       "prix": 200,
@@ -1183,7 +1183,7 @@
     "idProject": 1,
     "idEtape": 5,
     "name": "Samsing 256 Go",
-    "description": "De quoi tout avoir sous la main !",
+    "description": "256 Go de stockage très rapide",
     "image": "Stockage3",
     "criteres": {
       "prix": 100,
@@ -1249,7 +1249,7 @@
     "idProject": 1,
     "idEtape": 5,
     "name": "Sundisk 64 Go",
-    "description": "Un très bon petit stockage !",
+    "description": "64 de stockage rapide",
     "image": "Stockage2",
     "criteres": {
       "prix": 50,
@@ -1315,7 +1315,7 @@
     "idProject": 1,
     "idEtape": 5,
     "name": "KingSand 32 Go",
-    "description": "Petit mais bien !",
+    "description": "32 Go de stockage",
     "image": "Stockage1",
     "criteres": {
       "prix": 20,
