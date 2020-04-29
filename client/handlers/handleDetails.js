@@ -1,9 +1,11 @@
 const rp = require('request-promise');
 var fs = require('fs');
 
+const SERVICE_ADDRESS = process.env["SERVICE_HOST"] || "3.229.135.170";
+const SERVICE_PORT = process.env["SERVICE_PORT"] || "80";
+
 exports.details = (req, res) => {
     try {
-        console.log("details: " + req.url);
         fs.readFile('./heatmap.html', 'utf8', function(err, data) {
             if (!err) {
                 res.setHeader('Content-type' , 'text/html');
@@ -26,7 +28,6 @@ exports.details = (req, res) => {
 
 exports.heatmap = (req, res) => {
     try {
-        console.log("heatmap: " + req.url);
         fs.readFile('./heatmap.html', 'utf8', function(err, data) {
             if (!err) {
                 var newData = data.replace(/\/\*-\*\/.*\/\*-\*\//g, req.params.startp);
@@ -48,40 +49,3 @@ exports.heatmap = (req, res) => {
             });
     }
 };
-
-exports.detailsDefault = (request, response) => {
-    try {
-        fs.readFile('./' + request.url, function(err, data) {
-            if (!err) {
-                var dotoffset = request.url.lastIndexOf('.');
-                var mimetype = dotoffset == -1
-                                ? 'text/plain'
-                                : {
-                                    '.html' : 'text/html',
-                                    '.ico' : 'image/x-icon',
-                                    '.jpg' : 'image/jpeg',
-                                    '.png' : 'image/png',
-                                    '.gif' : 'image/gif',
-                                    '.css' : 'text/css',
-                                    '.js' : 'text/javascript'
-                                    }[ request.url.substr(dotoffset) ];
-                response.setHeader('Content-type' , mimetype);
-                response.end(data);
-                //console.log( request.url, mimetype );
-            } else {
-                console.log ('file not found: ' + request.url);
-                response.writeHead(404, "Not Found");
-                response.end();
-            }
-        });
-    } catch (err) {
-        console.log(err);
-        return response.status(400)
-            .json({
-                message: 'Whoops, an error has occured',
-                error: err
-            });
-    }
-};
-
-

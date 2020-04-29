@@ -8,8 +8,4 @@ routerDetails.route('/:startp/:endp')
     .get(handlers.heatmap)
     .post(handlers.heatmap)
 
-routerDetails.route('/*')
-    .get(handlers.detailsDefault)
-
-
 module.exports = routerDetails;
