@@ -40,6 +40,7 @@ export const GameResult = () => {
     var resTarget = scenario.criteres.prix + scenario.criteres.perf;
     var resProcent = Math.round(((sommeAll.perf + sommeAll.prix)*100)/resTarget);
     const resShow = resProcent > 100 ? resProcent - ((resProcent - 100)*2) :  resProcent;
+    const resShowFin = resShow < 0 ? 0 : resShow;
 
     return (
         <section className="hero is-medium is-primary is-bold is-fullheight">
@@ -71,7 +72,7 @@ export const GameResult = () => {
                             <article>
                                 <p className="title is-5 is-spaced">Réussite de votre projete :</p>
                                 <hr />
-                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 160 }} >{resShow}%</p>
+                                <p className="is-italic has-text-weight-medium " style={{ fontSize: 160 }} >{resShowFin}%</p>
                             </article>
                         </div>
 
