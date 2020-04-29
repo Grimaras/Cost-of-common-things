@@ -20,8 +20,20 @@ export const GameResultGraph = () => {
 
     const allScores = _.map(data, (c: any) => c.score);
 
+    const chartOptions = {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true,
+                    min: 0,
+                    max: 100
+                }
+            }]
+        }
+    }
+
     return (
-        <Line data={{ datasets: [{label: "Scores", data: allScores}], labels: allScores.map(() => "")}} />
+        <Line data={{ datasets: [{label: "Scores", data: allScores}], labels: allScores.map(() => "") }} options={chartOptions} />
     );
 
 };
