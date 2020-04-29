@@ -4,13 +4,17 @@ const handlers = require('../handlers/handleApi')
 const handlersComponents = require('../handlers/handleComponents')
 
 router.route('/')
-    .get(handlers.home)
+    .get(handlers.home);
 
 router.route('/alive')
-    .get(handlers.alive)
+    .get(handlers.alive);
 
 router.route('/gameresult')
     .post(handlers.gameresult);
+
+router.route('/gameresult/:id')
+    .get(handlers.getOneGameResult);
+
 
 router.route('/stats/:scenario')
     .get(handlers.getGameResult);

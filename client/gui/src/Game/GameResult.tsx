@@ -16,6 +16,7 @@ export const GameResult = () => {
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
     const scenario = ScenariosObjectifs[objectiveNb!];
     const rawData = useSelector((app:IAppState) => app.gameResult);
+    const gameId = useSelector((app: IAppState) => app.gameResult && app.gameResult!._id);
 
     console.log("------------------------------");
     var myData = JSON.parse(JSON.stringify(rawData));
@@ -86,9 +87,13 @@ export const GameResult = () => {
                         </div>
                     </div>
                     <hr />
-                        <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
-                            Voir les détails!
-                        </button>
+                    { gameId &&
+                        <a href={"http://localhost:81/details?gId=" + gameId }>
+                            <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
+                                Voir les détails!
+                            </button>
+                        </a>
+                        || null }
                 </div>
             </div>
 

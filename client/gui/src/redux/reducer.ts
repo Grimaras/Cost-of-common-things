@@ -11,6 +11,7 @@ export const companionLoadDone = createAction<any[]>("COMPANION_LOAD_DONE");
 export const goToObjective = createAction("GOTO_OBJECTIVE");
 export const startGame  = createAction("START_GAME");
 export const stopGame  = createAction("STOP_GAME");
+export const setGameId = createAction<string>("SET_GAME_ID");
 export const setStep = createAction<number>("SET_GAME_STEP");
 export const setFocusedComponent = createAction<string>("SET_GAME_FOCUSED_COMPONENT");
 
@@ -25,6 +26,7 @@ export interface IAppState {
     },
     objectiveNb?: number;
     game?: {
+        id?: string;
         currentStep: number;
         components: IComposant[];
         focusedComponent?: string;
@@ -186,7 +188,12 @@ export const counterReducer = createReducer(initialState, {
                 perf: sommeAll.perf
             }
         }
-    }
+    },
+    [setGameId.type]: (state, action) => ({...state,
+        game: {...state.game!,
+            id: action.payload
+        }
+    })
 });
 
 (window as any).CompanionPong = () => store.dispatch(companionSendPong());

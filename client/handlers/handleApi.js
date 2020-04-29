@@ -52,7 +52,22 @@ exports.getGameResult = async (req, res) => {
     }
 };
 
-exports.gameresult = (req, res) => {
+exports.getOneGameResult = async (req, res) => {
+    try {
+        const server_data = await rp({ uri: `http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats/${req.params.id}`, json: true});
+        console.log(server_data);
+        res.send(server_data);
+    } catch (err) {
+        return res.status(400)
+            .json({
+                message: 'Whoops, an error has occured',
+                error: err
+            });
+    }
+};
+
+
+exports.gameresult = async (req, res) => {
     try {
         var tabIds = [];
 
@@ -60,27 +75,25 @@ exports.gameresult = (req, res) => {
           tabIds.push(req.body.components[i]);
         } 
 
-        request.post(`http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats`,
-          {
-            json: 
-            {
-                "componentIds" : tabIds,
-                "score" : req.body.score,
-                "scenarioID" : req.body.scenarioId,
-                "cost" : req.body.cost,
-                "rAndD" : req.body.rAndD
-            }
-          },
-          (error, res, body) => {
-            if (error) {
-              console.error(error)
-              return
-            }
-            console.log(`statusCode: ${res.statusCode}`)
-          }
-        )
+        try {
+            const body = await rp.post(`http://${SERVICE_ADDRESS}:${SERVICE_PORT}/api/gamestats`,
+                {
+                    json:
+                        {
+                            "componentIds": tabIds,
+                            "score": req.body.score,
+                            "scenarioID": req.body.scenarioId,
+                            "cost": req.body.cost,
+                            "rAndD": req.body.rAndD
+                        }
+                }
+            );
 
-        res.send(req.body);
+            console.log("Body ", body);
+            res.send(body);
+        } catch (e) {
+            res.status(500).body(e);
+        }
     } catch (err) {
         return res.status(400)
             .json({

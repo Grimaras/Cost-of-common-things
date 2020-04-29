@@ -36,9 +36,35 @@
 
     var heatmapLayer = new HeatmapOverlay(cfg);
 
+    const userGame = "5ea890f008224f487c4b046f";
+
+    const Client = {
+      GET: (uri) => fetch("http://localhost:81/api/" + uri)
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+      Client.GET("components").then((res1) => {
+        res1.json().then((composants) => {
+          console.log("Composants : ", composants);
+          Client.GET("gameresult/" + userGame).then((res2) => {
+            res2.json().then((gameResult) => {
+                const userComposants = gameResult.componentIds.map(id => composants.find((c) => c._id === id));
+                const allEtapes = userComposants.flatMap(composant => composant.etapesFabrication);
+                const allGPS = allEtapes.flatMap(fab => fab.localisation.gps).map(gps => ({lat: gps.x, lng: gps.y, count: 1}));
+                console.log("Tous les points", allGPS);
+                console.log("Componsants du joueur ", userComposants);
+                console.log("Toutes les etapes des composants du joueur ", allEtapes);
+                console.log("Resultat du jeu : ", gameResult);
+                startMap(allGPS);
+            });
+          });
+        });
+      });
+    });
+
     function startAnime()
     {
-        /*-*/startPoint = [{lat: 35.8278, lng:-78.6421, count: 1}, {lat: 46.90, lng:-117.46, count: 1}, {lat: 46.80, lng:-117.3, count: 1}];/*-*/
+        let startPoint = allGPS;
 
         var testData = {
             max: 99,
@@ -91,14 +117,14 @@
       return [(a[0] + unitVector[0] * distance), (a[1] + unitVector[1] * distance)];
     };
 
-    window.onload = function() {
+    function startMap(pts) {
         var map = new L.Map('map-canvas', {
           center: new L.LatLng(0, 0),
           zoom: 3,
           layers: [baseLayer, heatmapLayer]
         });
 
-        /*-*/startPoint = [{lat: 35.8278, lng:-78.6421, count: 1}, {lat: 46.90, lng:-117.46, count: 1}, {lat: 46.80, lng:-117.3, count: 1}];/*-*/
+        /*-*/startPoint = pts;/*-*/
 
         var testData = {
             max: 99,
