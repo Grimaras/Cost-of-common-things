@@ -9,8 +9,8 @@ interface IEtape {
     name: string;
 }
 const etapes = [{
-    id: 1,
-    name: "Batterie"
+    id: 6,
+    name: "Coque"
 }, {
     id: 2,
     name: "Ecran"
@@ -18,14 +18,14 @@ const etapes = [{
     id: 3,
     name: "Processeur"
 }, {
+    id: 1,
+    name: "Batterie"
+}, {
     id: 4,
     name: "RAM"
 }, {
     id: 5,
     name: "Stockage"
-}, {
-    id: 6,
-    name: "Coque"
 }, {
     id: 7,
     name: "Fin"
