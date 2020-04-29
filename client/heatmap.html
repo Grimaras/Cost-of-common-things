@@ -44,7 +44,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script>
-    let dirtyGlobal;
     let nextButton;
     let modal;
 
@@ -91,11 +90,10 @@
                 console.log("Toutes les etapes des composants du joueur ", allEtapes);
                 console.log("Resultat du jeu : ", gameResult);
                 startMap(allGPS);
-                dirtyGlobal = allGPS;
                 console.log(nextButton.children);
                 nextButton.children[0].disabled = false;
                 nextButton.onclick = () => {
-                  startAnime();
+                  startAnime(allGPS);
                   console.log("Clicked");
                   nextButton.children[0].disabled = true;
                   setTimeout(() => {
@@ -108,9 +106,9 @@
       });
     });
 
-    function startAnime()
+    function startAnime(pts)
     {
-        let startPoint = dirtyGlobal.filter(p => p.idEtape === 1);
+        let startPoint = pts.filter(p => p.idEtape === 1);
 
         var testData = {
             max: 99,
@@ -118,7 +116,7 @@
           };
         heatmapLayer.setData(testData);
 
-        /*_*/endPoint = [{lat: 46.90, lng:-117.46, count: 1}, null, null];  //dirtyGlobal.filter(p => p.idEtape === 2);/*_*/
+        /*_*/endPoint = pts.filter(p => p.idEtape === 2);/*_*/
 
         var refreshIntervalId = setInterval(function() {
             var newData = [];
@@ -178,7 +176,7 @@
           };
         heatmapLayer.setData(testData);
 
-        /*_*/endPoint = pts.filter(p => p.idEtape === 2);/*_*/
+        /*_*/const endPoint = pts.filter(p => p.idEtape === 2);/*_*/
     };
 
   </script>
