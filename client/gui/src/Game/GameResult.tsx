@@ -85,7 +85,7 @@ export const GameResult = () => {
                     </div>
                     <hr />
                     { gameId &&
-                        <a href={GET_BACKEND_URL() + "/details?gId=" + gameId }>
+                        <a href={GET_BACKEND_URL() + "details?gId=" + gameId }>
                             <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
                                 Voir les détails!
                             </button>
