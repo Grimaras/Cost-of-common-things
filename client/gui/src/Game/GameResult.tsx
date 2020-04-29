@@ -5,12 +5,10 @@ import {useSelector} from 'react-redux';
 import {IAppState} from "../redux/reducer";
 import {ScenariosObjectifs} from "./Objective";
 import {GameResultGraph} from "./GameResultGraph";
+import {GET_BACKEND_URL} from "../http/Client";
 
 
 export const GameResult = () => {
-
-
-    /* R&D */
     const rAndDVal = useSelector((appState: IAppState) => appState.game!.rAndD);
 
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
@@ -19,10 +17,8 @@ export const GameResult = () => {
     const gameId = useSelector((app: IAppState) => app.gameResult && app.gameResult!._id);
 
     console.log("------------------------------");
-    var myData = JSON.parse(JSON.stringify(rawData));
 
-
-    const sommeAll = _.reduce(myData.components, (acc, element) => {
+    const sommeAll = _.reduce(rawData.components, (acc, element) => {
         return {
             eco: acc.eco + element.criteres.eco,
             perf: acc.perf + element.criteres.perf,
@@ -47,9 +43,9 @@ export const GameResult = () => {
             <HUD/>
             <div className="hero-body">
                 <div className="container">
-                    <p className="title is-1 is-spaced" style={{marginBottom: 20 }}>Les résultats de votre projet :</p>
+                    <p className="title is-1 is-spaced" style={{marginBottom: 20}}>Les résultats de votre projet :</p>
                     <br />
-                    <p className="title is-4 is-spaced" style={{marginBottom: 40 }}>{scenario.name} : {scenario.description}</p>
+                    <p className="title is-4 is-spaced" style={{marginBottom: 40}}>{scenario.name} : {scenario.description}</p>
                     <br />
                     <div className="columns">
                         <div className="column">
@@ -81,7 +77,6 @@ export const GameResult = () => {
                                 <p className="title is-5 is-spaced">La moyenne globale :</p>
                                 <hr />
                                 <div className="is-vcentered is-centered">
-                                    <p className="is-2 has-text-danger">ICI METTRE UN BEAU GRAPHE</p>
                                     <GameResultGraph />
                                 </div>
                             </article>
@@ -89,7 +84,7 @@ export const GameResult = () => {
                     </div>
                     <hr />
                     { gameId &&
-                        <a href={"http://localhost:81/details?gId=" + gameId }>
+                        <a href={GET_BACKEND_URL() + "details?gId=" + gameId }>
                             <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
                                 Voir les détails!
                             </button>
@@ -100,13 +95,4 @@ export const GameResult = () => {
 
         </section>
     )
-
-
-
 };
-
-
-
-
-
-
