@@ -7,6 +7,7 @@
     "name": "Little Buster 2000",
     "description": "Batterie de très fine et résistante",
     "image": "Batterie4",
+	"bans": [],
     "criteres": {
       "prix": 10,
       "eco": 72.91,
@@ -61,6 +62,7 @@
     "name": "Die Leistung",
     "description": "Batterie fine et résistante",
     "image": "Batterie3",
+	"bans": [],
     "criteres": {
       "prix": 7,
       "eco": 86.29,
@@ -115,7 +117,7 @@
     "name": "X9 artisticice",
     "description": "Batterie à très grosse capacité mais peu résistante",
     "image": "Batterie2",
-    "bans": [24],
+    "bans": [21,22],
     "criteres": {
       "prix": 4,
       "eco": 136.63,
@@ -170,6 +172,7 @@
     "name": "SAFT LS14250",
     "description": "Batterie grosse capacité mais peu résistante",
     "image": "Batterie1",
+	"bans": [21,22],
     "criteres": {
       "prix": 2,
       "eco": 151.01,
@@ -224,6 +227,7 @@
     "name": "Screen XXL",
     "description": "Un écran invisible !",
     "image": "Ecran4",
+	"bans": [22,23,24],
     "criteres": {
       "prix": 150,
       "eco": 20,
@@ -302,6 +306,7 @@
     "name": "Screen XL",
     "description": "Un grand ecran",
     "image": "Ecran3",
+	"bans": [21,23,24],
     "criteres": {
       "prix": 80,
       "eco": 38.4,
@@ -380,6 +385,7 @@
     "name": "Screen L",
     "description": "Un ecran de taille moyenne",
     "image": "Ecran2",
+	"bans": [21,22],
     "criteres": {
       "prix": 68,
       "eco": 30.17,
@@ -458,6 +464,7 @@
     "name": "Screen M",
     "description": "Un tout petit écran",
     "image": "Ecran1",
+	"bans": [21,22],
     "criteres": {
       "prix": 25,
       "eco": 10.97,
@@ -1376,6 +1383,7 @@
     "name": "Rios X 256",
     "description": "Tout est a porte de main",
     "image": "Coque4",
+	"bans": [2,3,4,6,7,8],
     "criteres": {
       "prix": 90,
       "eco": 20.04,
@@ -1427,9 +1435,10 @@
     "idComponent": 22,
     "idProject": 1,
     "idEtape": 6,
-    "name": "Dinomin;a Zero",
+    "name": "Dinomina Zero",
     "description": "Confortable et de grande taille",
     "image": "Coque3",
+	"bans": [3,4,5,8],
     "criteres": {
       "prix": 77,
       "eco": 39.94,
@@ -1482,8 +1491,9 @@
     "idProject": 1,
     "idEtape": 6,
     "name": "Flippex",
-    "description": "Clap entre tes mains",
+    "description": "Un téléphone a clapet",
     "image": "Coque2",
+	"bans" : [5,6],
     "criteres": {
       "prix": 50,
       "eco": 290,
@@ -1514,6 +1524,7 @@
     "name": "Nakio",
     "description": "Le retour de l'indestructible",
     "image": "Coque1",
+	"bans": [5,6,7],
     "criteres": {
       "prix": 23,
       "eco": 364,
