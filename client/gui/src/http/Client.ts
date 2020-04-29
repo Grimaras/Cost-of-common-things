@@ -1,4 +1,4 @@
-
+export const GET_BACKEND_URL = () =>  `http://${window.location.hostname}:${window.location.port === "3000" ? "81" : window.location.port}/`;
 const BACKEND_QUERY = () =>  `http://${window.location.hostname}:${window.location.port === "3000" ? "81" : window.location.port}/api`;
 
 export class HTTPClient {
