@@ -15,7 +15,7 @@ export const GameResult = () => {
 
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
     const scenario = ScenariosObjectifs[objectiveNb!];
-    const rawData = useSelector((app:IAppState) => app.gameResult);
+    const rawData = useSelector((app:IAppState) => app.game!);
     const gameId = useSelector((app: IAppState) => app.gameResult && app.gameResult!._id);
 
     console.log("------------------------------");
