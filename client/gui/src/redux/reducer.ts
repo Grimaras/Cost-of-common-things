@@ -135,7 +135,7 @@ export const counterReducer = createReducer(initialState, {
             currentStep: etapes[etapes.findIndex((e) => e.id === state.game!.currentStep) + 1].id,
             focusedComponent: undefined,
             components: [
-                ..._.filter(state.game!.components, (c) => c.idEtape !== action.payload.idEtape),
+                ..._.filter(state.game!.components, (c) => c.idEtape !== action.payload.idEtape && !action.payload.bans.includes(c.idComponent)),
                     action.payload
             ],
         }
