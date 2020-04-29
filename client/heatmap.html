@@ -32,7 +32,7 @@
       Test
       <!-- Any other Bulma elements you want -->
     </div>
-      <a href="http://localhost:81/">
+      <a href=".">
         <button class="button is-button is-primary">
           Nouvelle partie
         </button>
@@ -65,10 +65,9 @@
 
     var heatmapLayer = new HeatmapOverlay(cfg);
 
-    const userGame = "5ea890f008224f487c4b046f";
-
+    const GET_BACKEND_URL = () =>  `http://${window.location.hostname}:${window.location.port === "3000" ? "81" : window.location.port}/`;
     const Client = {
-      GET: (uri) => fetch("http://localhost:81/api/" + uri)
+      GET: (uri) => fetch(GET_BACKEND_URL() + "api/" + uri)
     };
 
     document.addEventListener("DOMContentLoaded", () => {
