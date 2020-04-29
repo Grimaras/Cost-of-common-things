@@ -8,9 +8,6 @@ import {GameResultGraph} from "./GameResultGraph";
 
 
 export const GameResult = () => {
-
-
-    /* R&D */
     const rAndDVal = useSelector((appState: IAppState) => appState.game!.rAndD);
 
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
@@ -19,10 +16,8 @@ export const GameResult = () => {
     const gameId = useSelector((app: IAppState) => app.gameResult && app.gameResult!._id);
 
     console.log("------------------------------");
-    var myData = JSON.parse(JSON.stringify(rawData));
 
-
-    const sommeAll = _.reduce(myData.components, (acc, element) => {
+    const sommeAll = _.reduce(rawData.components, (acc, element) => {
         return {
             eco: acc.eco + element.criteres.eco,
             perf: acc.perf + element.criteres.perf,
@@ -100,13 +95,4 @@ export const GameResult = () => {
 
         </section>
     )
-
-
-
 };
-
-
-
-
-
-
