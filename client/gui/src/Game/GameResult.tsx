@@ -5,6 +5,7 @@ import {useSelector} from 'react-redux';
 import {IAppState} from "../redux/reducer";
 import {ScenariosObjectifs} from "./Objective";
 import {GameResultGraph} from "./GameResultGraph";
+import {GET_BACKEND_URL} from "../http/Client";
 
 
 export const GameResult = () => {
@@ -42,9 +43,9 @@ export const GameResult = () => {
             <HUD/>
             <div className="hero-body">
                 <div className="container">
-                    <p className="title is-1 is-spaced" style={{marginBottom: 20 }}>Les résultats de votre projet :</p>
+                    <p className="title is-1 is-spaced" style={{marginBottom: 20}}>Les résultats de votre projet :</p>
                     <br />
-                    <p className="title is-4 is-spaced" style={{marginBottom: 40 }}>{scenario.name} : {scenario.description}</p>
+                    <p className="title is-4 is-spaced" style={{marginBottom: 40}}>{scenario.name} : {scenario.description}</p>
                     <br />
                     <div className="columns">
                         <div className="column">
@@ -84,7 +85,7 @@ export const GameResult = () => {
                     </div>
                     <hr />
                     { gameId &&
-                        <a href={"http://localhost:81/details?gId=" + gameId }>
+                        <a href={GET_BACKEND_URL() + "/details?gId=" + gameId }>
                             <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
                                 Voir les détails!
                             </button>
