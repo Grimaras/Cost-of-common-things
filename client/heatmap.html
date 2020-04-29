@@ -115,31 +115,24 @@
           };
         heatmapLayer.setData(testData);
 
-        /*_*/endPoint = pts.filter(p => p.idEtape === 2);/*_*/
+        /*_*/const endPoint = [22.563534, 113.951255];/*_*/
 
         var refreshIntervalId = setInterval(function() {
             var newData = [];
 
             for (var i = 0; i < startPoint.length; i++)
             {
-              if (endPoint[i] != null)
-              {
-                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[i]['lat']) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[i]['lng']))
+                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[0]) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[1]))
                 {
                   newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'], count: 1});
                 }
                 else
                 {
-                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[i]['lat'],endPoint[i]['lng']], 1);
+                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[0],endPoint[1]], 1);
                   newData.push({lat: newVal[0], lng:newVal[1], count: 1});
                   startPoint[i]['lat'] = newVal[0];
                   startPoint[i]['lng'] = newVal[1];
                 }
-              }
-              else
-              {
-                newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'] , count: 1});
-              }
             }
 
 
@@ -174,8 +167,6 @@
             data: startPoint
           };
         heatmapLayer.setData(testData);
-
-        /*_*/const endPoint = pts.filter(p => p.idEtape === 2);/*_*/
     };
 
   </script>
