@@ -28,7 +28,7 @@ exports.create = async (req, res) => {
 
 exports.readScenario = async (req, res) => {
     try {
-        let gameStats = await db.GameStats.find({scenarioID : `${req.params.id}` });
+        let gameStats = await db.GameStats.find({scenarioID : `${req.params.id}` }).sort('timestamp');
         return res.status(200).json(gameStats);
     } catch (err) {
         return res.status(400).json({
