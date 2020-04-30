@@ -42,11 +42,11 @@
           <br>
           <div class="">
             <ul>
-              <li>Émission de dioxyde de carbone : <div class="is-inline" id="scCO2"></div> tonnes</li>
+              <li>Émission de dioxyde de carbone : <div class="is-inline" id="scCO2" style="font-weight: bold;"></div> tonnes</li>
               <hr />
-              <li>Cela represente l'absortion de <div class="is-inline" id="scTree"></div> arbres pendant 1 an</li>
+              <li>Cela represente l'absortion de <div class="is-inline" id="scTree" style="font-weight: bold;"></div> arbres pendant 1 an</li>
               <hr />
-              <li>Cela équivaut à la production de <div class="is-inline" id="scPatate"></div> killos de pommes de terrre</li>
+              <li>Cela équivaut à la production de <div class="is-inline" id="scPatate" style="font-weight: bold;"></div> killos de pommes de terrre</li>
               <hr />
               <li>En ???</li>
               <div>
@@ -205,7 +205,7 @@
     function showScore(score)
     {
       var co2 = score;
-      var co2Tonnes = (score * 100000)/ 1000000;
+      var co2Tonnes = Math.round((score * 100000)/ 1000000);
       var co2Tree = Math.round(((score * 100000)/1000)/35);
       var co2Patate = Math.round(((score * 100000)/1000)/4.7);
       /*
