@@ -36,7 +36,7 @@ export const GameResult = () => {
     var resTarget = scenario.criteres.prix + scenario.criteres.perf;
     var resProcent = Math.round(((sommeAll.perf + sommeAll.prix)*100)/resTarget);
 
-    const resFinal = Math.round((resProcent + rAndDPro)/2);
+    const resFinal = Math.round(((resProcent*2) + rAndDPro)/2);
     const resShow = resFinal > 100 ? resFinal - ((resFinal - 100)*2) :  resFinal;
     const resShowFin = resShow < 0 ? 0 : resShow;
 
