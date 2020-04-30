@@ -54,11 +54,11 @@ export const GameResult = () => {
                                     <p className="title is-5">Votre score : </p>
                                     <hr />
                                     <div className="is-vcentered">
-                                        <p className="subtitle" style={{marginTop: 40 }}> Valeur preformance : {Math.round(sommeAll.perf)} / {scenario.criteres.perf}</p>
+                                        <p className="subtitle" style={{marginTop: 40 }}> Performance : {Math.round(sommeAll.perf)} / {scenario.criteres.perf}</p>
                                         <progress className="progress is-danger" value={sommeAll.perf} max={scenario.criteres.perf}></progress>
-                                        <p className="subtitle" style={{marginTop: 20 }} > Valeur prix : {Math.round(sommeAll.prix)} / {scenario.criteres.prix}</p>
+                                        <p className="subtitle" style={{marginTop: 20 }} > Prix : {Math.round(sommeAll.prix)} / {scenario.criteres.prix}</p>
                                         <progress className="progress is-warning" style={{marginBottom: 20 }} value={Math.round(sommeAll.prix)} max={scenario.criteres.prix}></progress>
-                                        <p className="subtitle" style={{marginBottom: 20}}> Valeur R&D : {Math.round(rAndDVal)} / {scenario.criteres.rAndD} </p>
+                                        <p className="subtitle" style={{marginBottom: 20}}> Cout R&D : {Math.round(rAndDVal)} / {scenario.criteres.rAndD} </p>
                                         <progress className="progress is-success" style={{marginBottom: 20 }} value={Math.round(rAndDVal)} max={scenario.criteres.rAndD}></progress>
                                     </div>
                             </article>
@@ -66,7 +66,7 @@ export const GameResult = () => {
 
                         <div className="column" >
                             <article>
-                                <p className="title is-5 is-spaced">Réussite de votre projete :</p>
+                                <p className="title is-5 is-spaced">Réussite de votre projet :</p>
                                 <hr />
                                 <p className="is-italic has-text-weight-medium " style={{ fontSize: 160 }} >{resShowFin}%</p>
                             </article>
@@ -74,7 +74,7 @@ export const GameResult = () => {
 
                         <div className="column">
                             <article>
-                                <p className="title is-5 is-spaced">La moyenne globale :</p>
+                                <p className="title is-5 is-spaced">Score par rapport aux parties precedentes:</p>
                                 <hr />
                                 <div className="is-vcentered is-centered">
                                     <GameResultGraph />
