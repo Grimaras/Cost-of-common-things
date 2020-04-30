@@ -13,11 +13,68 @@
       justify-content: space-around;
       visibility: hidden;
     }
+    .lds-ellipsis {
+      display: inline-block;
+      position: relative;
+      width: 20px;
+      height: 20px;
+    }
+    .lds-ellipsis div {
+      position: absolute;
+      top: 33px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #000000;
+      animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    }
+    .lds-ellipsis div:nth-child(1) {
+      left: 8px;
+      animation: lds-ellipsis1 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(2) {
+      left: 8px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(3) {
+      left: 32px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+    .lds-ellipsis div:nth-child(4) {
+      left: 56px;
+      animation: lds-ellipsis3 0.6s infinite;
+    }
+    @keyframes lds-ellipsis1 {
+      0% {
+        transform: scale(0);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    @keyframes lds-ellipsis3 {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(0);
+      }
+    }
+    @keyframes lds-ellipsis2 {
+      0% {
+        transform: translate(0, 0);
+      }
+      100% {
+        transform: translate(24px, 0);
+      }
+    }
+
   </style>
 </head>
 <body class="">
   <br/>
   <center>Voici les origines des différents minerais qui seront utilisés pour la conception de votre téléphone.</center>
+  <center><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></center>
   <div class="topButton">
     <button class="button is-button is-primary" disabled>
       Voir la suite du trajet
@@ -42,20 +99,30 @@
           <br>
           <div class="">
             <ul>
+<<<<<<< HEAD
               <li>Émission de dioxyde de carbone : <div class="is-inline" id="scCO2" style="font-weight: bold;"></div> tonnes</li>
               <hr />
               <li>Cela represente l'absortion de <div class="is-inline" id="scTree" style="font-weight: bold;"></div> arbres pendant 1 an</li>
               <hr />
               <li>Cela équivaut à la production de <div class="is-inline" id="scPatate" style="font-weight: bold;"></div> killos de pommes de terrre</li>
+=======
+              <li>Émissions de dioxyde de carbone : <div class="is-inline" id="scCO2"></div> tonnes</li>
               <hr />
-              <li>En ???</li>
+              <li>Soit l'absortion de <div class="is-inline" id="scTree"></div> arbres pendant 1 an</li>
+              <hr />
+              <li>Ou la production de <div class="is-inline" id="scPatate"></div> kilos de pommes de terrre</li>
+>>>>>>> e25d04e104914ebc53d73b51dd04c68cd8fb4d19
+              <hr />
+                <!--
+                  <li>En ???</li>
+                !-->
               <div>
               </div>
             </ul>
           </div>
         </section>
 
-        <footer class="modal-card-foot is-centered">
+        <footer class="modal-card-foot" style="display:flex; justify-content: space-around">
             <a href=".">
               <button class="button is-button is-primary">
                 Nouvelle partie
@@ -70,6 +137,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script>
     let nextButton;
+    let loader;
     let modal;
 
     var baseLayer = L.tileLayer(
@@ -99,6 +167,7 @@
     document.addEventListener("DOMContentLoaded", () => {
       nextButton = document.getElementsByClassName("topButton")[0];
       modal = document.getElementById("modal");
+      loader = document.getElementsByClassName("lds-ellipsis")[0];
 
       Client.GET("components").then((res1) => {
         res1.json().then((composants) => {
@@ -120,12 +189,12 @@
                 nextButton.children[0].disabled = false;
 
                 setTimeout(() => {
+                    loader.className = "";
                     nextButton.style.visibility = "visible";
                   }, 4000);
 
                 nextButton.onclick = () => {
                   startAnime(allGPS);
-                  console.log("Clicked");
                   nextButton.children[0].disabled = true;
                   setTimeout(() => {
                     modal.className = modal.className + " is-active"
@@ -204,7 +273,10 @@
 
     function showScore(score)
     {
+<<<<<<< HEAD
       var co2 = score;
+=======
+>>>>>>> e25d04e104914ebc53d73b51dd04c68cd8fb4d19
       var co2Tonnes = Math.round((score * 100000)/ 1000000);
       var co2Tree = Math.round(((score * 100000)/1000)/35);
       var co2Patate = Math.round(((score * 100000)/1000)/4.7);
