@@ -9,8 +9,8 @@ export const ScenariosObjectifs = [{
         description: "Vous avez pour mission de creer le nouveau porte drapeau de l'entreprise, soyez ingenieux pour creer un telephone tres performant !",
         criteres: {
             rAndD: 6000,
-            prix: 1200,
-            perf: 550
+            prix: 500,
+            perf: 450
         },
     },
     {
@@ -18,8 +18,8 @@ export const ScenariosObjectifs = [{
         description: "Vous avez pour mission de creer le telephone d'entree de gamme de l'entreprise. Trouvez le compromis ingenieux entre performance et cout de fabrication !",
         criteres: {
             rAndD: 8000,
-            prix: 300,
-            perf: 150
+            prix: 100,
+            perf:200
         }
     }
 ];

@@ -58,7 +58,7 @@ export const Etapes = () => {
                         ? 'is-success'
                         : maybeSelectedComponent ? 'is-dark' : 'is-warning'; // TODO: Check if component selected or if current step
                     const componentSelectedName = maybeSelectedComponent ? maybeSelectedComponent.name :''// TODO: Check if component selected
-                    const disabled = k - 1 > (latestEtapes || 0);
+                    const disabled = latestEtapes === -Infinity ? k > 1 : k - 1 > (latestEtapes || 0);
 
                     return (
                         <article
@@ -74,4 +74,4 @@ export const Etapes = () => {
             }
         </div>
     );
-};
+}

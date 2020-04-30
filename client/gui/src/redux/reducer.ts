@@ -17,6 +17,7 @@ export const setStep = createAction<number>("SET_GAME_STEP");
 export const setFocusedComponent = createAction<string>("SET_GAME_FOCUSED_COMPONENT");
 
 export const chooseComponent = createAction<IComposant>("ADD_COMPONENT_AT_STEP");
+export const deleteComponent = createAction<IComposant>("DELETE_COMPONENT");
 export const gameTick = createAction("GAME_TICK");
 export const receptResult = createAction<any>("RECEPT_RESULT");
 
@@ -96,7 +97,7 @@ export const counterReducer = createReducer(initialState, {
                 isReady: true
             },
             cache: { ...state.cache,
-                components: action.payload,
+                components: _.shuffle(action.payload),
                 steps: allSteps,
                 maxCriteraValues: maxValues
             },
@@ -135,9 +136,17 @@ export const counterReducer = createReducer(initialState, {
             currentStep: etapes[etapes.findIndex((e) => e.id === state.game!.currentStep) + 1].id,
             focusedComponent: undefined,
             components: [
-                ..._.filter(state.game!.components, (c) => c.idEtape !== action.payload.idEtape && !action.payload.bans.includes(c.idComponent)),
+                ..._.filter(state.game!.components, (c) =>
+                    c.idEtape !== action.payload.idEtape &&
+                    !action.payload.bans.includes(c.idComponent.toString())
+                ),
                     action.payload
             ],
+        }
+    }),
+    [deleteComponent.type]: (state, action) => ({...state,
+        game: {...state.game!,
+            components: _.filter(state.game!.components, (c) => c._id !== action.payload)
         }
     }),
     [gameTick.type]: (state) => ({...state,
