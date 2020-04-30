@@ -27,16 +27,39 @@
     </div>
   </div>
   <div class="modal" id="modal">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-      Test
-      <!-- Any other Bulma elements you want -->
-    </div>
-      <a href=".">
-        <button class="button is-button is-primary">
-          Nouvelle partie
-        </button>
-      </a>
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <!-- Any other Bulma elements you want -->
+        <header class="modal-card-head has-text-centered">
+          <p class="modal-card-title is-centered">Impact de votre projet sur l'environnement :</p>
+        </header>
+
+        <section class="modal-card-body">
+          <p class="subtitle has-text-centered"> Voici la representation en quelques chiffres pour une production de 100.000 téléphones : </p>
+          <br>
+          <div class="">
+            <ul>
+              <li>Émission de dioxyde de carbone : <div class="is-inline" id="scCO2"></div> tonnes</li>
+              <hr />
+              <li>Cela represente l'absortion de <div class="is-inline" id="scTree"></div> arbres pendant 1 an</li>
+              <hr />
+              <li>Cela équivaut à la production de <div class="is-inline" id="scPatate"></div> de pommes de terrre</li>
+              <hr />
+              <li>En ???</li>
+              <div>
+              </div>
+            </ul>
+          </div>
+        </section>
+
+        <footer class="modal-card-foot is-centered">
+            <a href=".">
+              <button class="button is-button is-primary">
+                Nouvelle partie
+              </button>
+            </a>
+        </footer>
+      </div>
   </div>
   <button type="button" onclick="startAnime()">Start</button>
   <script src="/api/leaflet_heatmap_files/heatmap.js"></script>
@@ -66,14 +89,16 @@
 
     var heatmapLayer = new HeatmapOverlay(cfg);
 
-    const GET_BACKEND_URL = () =>  `http://${window.location.hostname}:${window.location.port === "3000" ? "81" : window.location.port}/`;
+    const userGame = "5ea890f008224f487c4b046f";
+
     const Client = {
-      GET: (uri) => fetch(GET_BACKEND_URL() + "api/" + uri)
+      GET: (uri) => fetch("http://localhost:81/api/" + uri)
     };
 
     document.addEventListener("DOMContentLoaded", () => {
       nextButton = document.getElementsByClassName("topButton")[0];
       modal = document.getElementById("modal");
+
       Client.GET("components").then((res1) => {
         res1.json().then((composants) => {
           console.log("Composants : ", composants);
@@ -84,7 +109,7 @@
                 const allEtapes = userComposants.flatMap(composant => composant.etapesFabrication);
                 const allGPS = allEtapes.flatMap(fab => ({idEtape: fab.idEtape, gps: fab.localisation.gps}))
                         .map(({idEtape, gps}) => ({lat: gps.x, lng: gps.y, count: 1, idEtape: idEtape}));
-
+                const dioCar = gameResult.criteres.eco;
                 console.log("Tous les points", allGPS);
                 console.log("Componsants du joueur ", userComposants);
                 console.log("Toutes les etapes des composants du joueur ", allEtapes);
@@ -100,6 +125,7 @@
                   setTimeout(() => {
                     modal.className = modal.className + " is-active"
                   }, 7000);
+                  showScore(dioCar);
                 }
             });
           });
@@ -178,6 +204,23 @@
         heatmapLayer.setData(testData);
 
         /*_*/endPoint = pts.filter(p => p.idEtape === 2);/*_*/
+    };
+
+    function showScore(score)
+    {
+      var co2 = score;
+      var co2Tonnes = (score * 100000)/ 1000000;
+      var co2Tree = Math.round(((score * 100000)/1000)/35);
+      var co2Patate = Math.round(((score * 100000)/1000)/4.7);
+      /*
+      35000 en arbres
+       1g de CO2 = 4.7 kilos de pommes de terre
+       */
+
+      document.getElementById("scCO2").innerHTML = co2Tonnes;
+      document.getElementById("scTree").innerText = co2Tree;
+      document.getElementById("scPatate").innerText = co2Patate;
+
     };
 
   </script>
