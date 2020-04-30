@@ -11,10 +11,13 @@
       padding: 10px;
       display: flex;
       justify-content: space-around;
+      visibility: hidden;
     }
   </style>
 </head>
 <body class="">
+  <br/>
+  <center>Voici les origines des différents minerais qui seront utilisés pour la conception de votre téléphone.</center>
   <div class="topButton">
     <button class="button is-button is-primary" disabled>
       Voir la suite du trajet
@@ -61,13 +64,11 @@
         </footer>
       </div>
   </div>
-  <button type="button" onclick="startAnime()">Start</button>
   <script src="/api/leaflet_heatmap_files/heatmap.js"></script>
   <script src="/api/leaflet_heatmap_files/leaflet-heatmap.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script>
-    let dirtyGlobal;
     let nextButton;
     let modal;
 
@@ -115,11 +116,15 @@
                 console.log("Toutes les etapes des composants du joueur ", allEtapes);
                 console.log("Resultat du jeu : ", gameResult);
                 startMap(allGPS);
-                dirtyGlobal = allGPS;
                 console.log(nextButton.children);
                 nextButton.children[0].disabled = false;
+
+                setTimeout(() => {
+                    nextButton.style.visibility = "visible";
+                  }, 4000);
+
                 nextButton.onclick = () => {
-                  startAnime();
+                  startAnime(allGPS);
                   console.log("Clicked");
                   nextButton.children[0].disabled = true;
                   setTimeout(() => {
@@ -133,9 +138,9 @@
       });
     });
 
-    function startAnime()
+    function startAnime(pts)
     {
-        let startPoint = dirtyGlobal.filter(p => p.idEtape === 1);
+        let startPoint = pts.filter(p => p.idEtape === 1);
 
         var testData = {
             max: 99,
@@ -143,31 +148,24 @@
           };
         heatmapLayer.setData(testData);
 
-        /*_*/endPoint = [{lat: 46.90, lng:-117.46, count: 1}, null, null];  //dirtyGlobal.filter(p => p.idEtape === 2);/*_*/
+        /*_*/const endPoint = [22.563534, 113.951255];/*_*/
 
         var refreshIntervalId = setInterval(function() {
             var newData = [];
 
             for (var i = 0; i < startPoint.length; i++)
             {
-              if (endPoint[i] != null)
-              {
-                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[i]['lat']) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[i]['lng']))
+                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[0]) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[1]))
                 {
                   newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'], count: 1});
                 }
                 else
                 {
-                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[i]['lat'],endPoint[i]['lng']], 1);
+                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[0],endPoint[1]], 2);
                   newData.push({lat: newVal[0], lng:newVal[1], count: 1});
                   startPoint[i]['lat'] = newVal[0];
                   startPoint[i]['lng'] = newVal[1];
                 }
-              }
-              else
-              {
-                newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'] , count: 1});
-              }
             }
 
 
@@ -202,8 +200,6 @@
             data: startPoint
           };
         heatmapLayer.setData(testData);
-
-        /*_*/endPoint = pts.filter(p => p.idEtape === 2);/*_*/
     };
 
     function showScore(score)

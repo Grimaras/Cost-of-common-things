@@ -3,6 +3,7 @@ import { store } from "./store";
 import _ from "lodash";
 import {IComposant} from "../Game/models";
 import {ScenariosObjectifs} from "../Game/Objective";
+import {etapes} from "../Game/Etapes";
 
 export const companionSendPong = createAction("COMPANION_SEND_PONG");
 export const companionLoadDone = createAction<any[]>("COMPANION_LOAD_DONE");
@@ -106,7 +107,7 @@ export const counterReducer = createReducer(initialState, {
     }),
     [startGame.type]: (state: IAppState) => ({...state,
         game: {
-            currentStep: 1,
+            currentStep: etapes[0].id,
             scenarioId: state.objectiveNb!,
             components: [],
             rAndD: 0,
@@ -131,10 +132,10 @@ export const counterReducer = createReducer(initialState, {
     }),
     [chooseComponent.type]: (state: IAppState, action) => ({...state,
         game: {...state.game!,
-            currentStep: state.game!.currentStep + 1,
+            currentStep: etapes[etapes.findIndex((e) => e.id === state.game!.currentStep) + 1].id,
             focusedComponent: undefined,
             components: [
-                ..._.filter(state.game!.components, (c) => c.idEtape !== action.payload.idEtape),
+                ..._.filter(state.game!.components, (c) => c.idEtape !== action.payload.idEtape && !action.payload.bans.includes(c.idComponent)),
                     action.payload
             ],
         }

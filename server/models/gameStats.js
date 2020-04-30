@@ -15,7 +15,6 @@ const GameStatsSchema = new mongoose.Schema({
         required: true,
         description : "Réussite en % de la mission",
         max: 100,
-        min: 0,
     },
     timestamp : {
         type : Number,
