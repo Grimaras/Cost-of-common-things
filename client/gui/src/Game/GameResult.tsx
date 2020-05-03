@@ -64,6 +64,7 @@ export const GameResult = () => {
                             <article>
                                     <p className="title is-4">Votre score : </p>
                                     <p className="is-italic has-text-weight-medium " style={{ fontSize: 160 }} >{resShowFin}%</p>
+
                                     <hr />
                                     <div className="is-vcentered">
                                         <p className="subtitle" style={{marginTop: 40 }}> Performance : {Math.round(sommeAll.perf)} / {scenario.criteres.perf}</p>
@@ -111,6 +112,7 @@ export const GameResult = () => {
                                 <p className="title is-4">Quick facts :</p>
                                 <div className="">
                                     <p>Dans le monde, en 2017, 1.56 milliards de téléphones ont été vendu soit 50 par secondes.</p>
+
                                 </div>
                             </article>
                         </div>
