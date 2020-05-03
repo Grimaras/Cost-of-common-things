@@ -3,6 +3,7 @@ import useTypewriter from "react-use-typewriter";
 import {useDispatch, useSelector} from "react-redux";
 import {IAppState, startGame} from "../redux/reducer";
 import {startGameTicking} from "./Game";
+import {GameResultGraph} from "./GameResultGraph";
 
 export const ScenariosObjectifs = [{
         name: "Flagship Killer",
@@ -65,6 +66,10 @@ export const Objective = () => {
                          <div className="column">
                             <h1 className="title"> Performance minimale</h1>
                              <h2 style={{fontSize: 32}}>{scenario.criteres.perf}</h2>
+                        </div>
+                        <div className="column">
+                            <h1 className="title"> Historique des parties</h1>
+                                <GameResultGraph />
                         </div>
                     </div>
                     </div>

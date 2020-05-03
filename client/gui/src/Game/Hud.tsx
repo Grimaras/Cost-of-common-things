@@ -2,6 +2,7 @@ import React from "react";
 import {useSelector} from "react-redux";
 import {IAppState} from "../redux/reducer";
 import _ from "lodash";
+import {ScenariosObjectifs} from "./Objective";
 
 const hudContainerStyle = {
     position: "fixed" as "fixed",
@@ -16,20 +17,17 @@ const hudStyle = {
 };
 
 export const HUD = () => {
-    const rAndD = useSelector((appState: IAppState) => appState.game && appState.game!.rAndD);
-    const composants = useSelector((appState: IAppState) => appState.game && appState.game!.components);
+    const scenarioId = useSelector((appState: IAppState) => appState.objectiveNb);
+    console.log("Scenario Id : ", scenarioId);
+    const scenario = (scenarioId || scenarioId === 0) && ScenariosObjectifs[scenarioId];
 
-    const componentPrice = _.reduce(
-        _.map(composants, (c) => c.criteres.prix),
-        (acc, a) => a + acc, 0);
 
-    return null;
-    /*return (
+    return (
         <div style={hudContainerStyle}>
             <div style={hudStyle} className="notification is-success">
-                Cout de Fab. : {componentPrice}.00$ | Budget R&D {rAndD}.00$
+                {scenario ? scenario.name : ". . ."}
             </div>
         </div>
-    )*/
+    )
 };
 

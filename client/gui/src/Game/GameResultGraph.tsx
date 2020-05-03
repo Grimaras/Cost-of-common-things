@@ -7,10 +7,12 @@ import {GET_BACKEND_URL} from "../http/Client";
 
 export const GameResultGraph = () => {
 
-    const scenID = useSelector( (appState: IAppState) => appState.game!.scenarioId);
+    const scenID = useSelector( (appState: IAppState) => appState.objectiveNb && appState.objectiveNb);
 
     const [data, setData] = useState(undefined);
+
     useEffect(() =>  {
+        if (!scenID && scenID !== 0) return;
         setTimeout(() =>
             fetch(GET_BACKEND_URL() + "api/stats/" + scenID).then(res => res.json().then(setData)),
         500);
@@ -31,7 +33,7 @@ export const GameResultGraph = () => {
                 }
             }]
         }
-    }
+    };
 
     return (
         <Line data={{ datasets: [{label: "Scores", data: allScores}], labels: allScores.map(() => "") }} options={chartOptions} />

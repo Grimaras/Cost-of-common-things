@@ -51,8 +51,7 @@ export const GameResult = () => {
                     <br />
                     <div className="columns">
                         <div className="column">
-                            <article >
-
+                            <article>
                                     <p className="title is-5">Votre score : </p>
                                     <hr />
                                     <div className="is-vcentered">
@@ -79,7 +78,6 @@ export const GameResult = () => {
                                 <p className="title is-5 is-spaced">Score par rapport aux parties precedentes:</p>
                                 <hr />
                                 <div className="is-vcentered is-centered">
-                                    <GameResultGraph />
                                 </div>
                             </article>
                         </div>
