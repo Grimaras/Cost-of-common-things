@@ -95,26 +95,30 @@
         </header>
 
         <section class="modal-card-body">
-          <p class="subtitle has-text-centered"> Voici la representation en quelques chiffres pour une production de 100.000 téléphones selon votre design : </p>
+          <p class="subtitle has-text-centered"> Voici la représentation en quelques chiffres pour une production de 1.000.000 téléphones selon votre design : </p>
           <br>
           <div class="">
             <ul>
               <li>Émissions de dioxyde de carbone : <div class="is-inline" id="scCO2" style="font-weight: bold;"></div> tonnes</li>
               <hr />
-              <li>Soit l'absortion de <div class="is-inline" id="scTree" style="font-weight: bold;"></div> arbres pendant 1 an</li>
+              <li>Soit l'absortion par <div class="is-inline" id="scTree" style="font-weight: bold;"></div> arbres pendant 1 an</li>
               <hr />
               <li>Cela represente <div class="is-inline" id="scTreeSize" style="font-weight: bold;"></div> mètres carres du foret</li>
               <hr />
               <li>Ou la production de <div class="is-inline" id="scPatate" style="font-weight: bold;"></div> kilos de pommes de terrre</li>
               <hr />
-              <li>Ou bien <div class="is-inline" id="scCar" style="font-weight: bold;"></div> km parcourus par une voiture.</li>
-              <li> C'est équvalient à <div class="is-inline" id="scCarEarth" style="font-weight: bold;"></div> tours du Monde.</li>
+              <li>Ou bien <div class="is-inline" id="scCar" style="font-weight: bold;"></div> km parcourus par une voiture, soit équivalent à <div class="is-inline" id="scCarEarth" style="font-weight: bold;"></div> tours du Monde.</li>
                 <!--
                   <li>En ???</li>
                 !-->
               <div>
               </div>
             </ul>
+          </div>
+          <br>
+          <p class="subtitle has-text-centered"> Par rapport le monde :</p>
+          <div class="">
+            <p>Dans le monde, en 2017, 1.56 milliards de téléphones ont été vendu soit 50 par secondes.</p>
           </div>
         </section>
 
@@ -311,11 +315,11 @@
 
     function showScore(score)
     {
-      var co2Tonnes = Math.round((score * 100000)/ 1000000);
-      var co2Tree = Math.round(((score * 100000)/1000)/35);
-      var co2TreeSize = Math.round(co2Tree/80);
-      var co2Patate = Math.round(((score * 100000)/1000)/4.7);
-      var co2Car = Math.round((score*100000)/180);
+      var co2Tonnes = Math.round((score * 1000000)/ 1000000);
+      var co2Tree = Math.round(((score * 1000000)/1000)/35);
+      var co2TreeSize = Math.round(co2Tree/23);
+      var co2Patate = Math.round(((score * 1000000)/1000)/4.7);
+      var co2Car = Math.round((score*1000000)/180);
       var co2CarEarth = co2Car/40000;
 
       /*
