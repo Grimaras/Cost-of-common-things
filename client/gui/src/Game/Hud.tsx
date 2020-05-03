@@ -21,11 +21,10 @@ export const HUD = () => {
     console.log("Scenario Id : ", scenarioId);
     const scenario = (scenarioId || scenarioId === 0) && ScenariosObjectifs[scenarioId];
 
-
     return (
         <div style={hudContainerStyle}>
             <div style={hudStyle} className="notification is-success">
-                {scenario ? scenario.name : ". . ."}
+                { scenario ? scenario.name : ". . ." }
             </div>
         </div>
     )
