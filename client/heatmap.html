@@ -207,9 +207,30 @@
     {
         let startPoint = pts.filter(p => p.idEtape === 1);
 
+        var newStartPoint = [];
+
+        for (var i = 0; i < startPoint.length; i++)
+        {
+          var newCount = 0;
+
+          for (var j = i; j < startPoint.length; j++)
+          {
+            if (startPoint[i]['lat'] == startPoint[j]['lat'] && startPoint[i]['lng'] == startPoint[j]['lng'])
+            {
+              newCount++;
+            }
+          }
+          startPoint[i]['count'] = newCount;
+
+          if (newCount > 0)
+          {
+            newStartPoint.push(startPoint[i]);
+          }
+        }
+
         var testData = {
-            max: 99,
-            data: startPoint
+            max: newStartPoint.length,
+            data: newStartPoint
           };
         heatmapLayer.setData(testData);
 
@@ -218,24 +239,24 @@
         var refreshIntervalId = setInterval(function() {
             var newData = [];
 
-            for (var i = 0; i < startPoint.length; i++)
+            for (var i = 0; i < newStartPoint.length; i++)
             {
-                if (Math.trunc(startPoint[i]['lat']) == Math.trunc(endPoint[0]) && Math.trunc(startPoint[i]['lng']) == Math.trunc(endPoint[1]))
+                if (Math.trunc(newStartPoint[i]['lat']) == Math.trunc(endPoint[0]) && Math.trunc(newStartPoint[i]['lng']) == Math.trunc(endPoint[1]))
                 {
-                  newData.push({lat: startPoint[i]['lat'], lng:startPoint[i]['lng'], count: 1});
+                  newData.push({lat: newStartPoint[i]['lat'], lng:newStartPoint[i]['lng'], count: newStartPoint[i]['count']});
                 }
                 else
                 {
-                  newVal = movePoint([startPoint[i]['lat'],startPoint[i]['lng']], [endPoint[0],endPoint[1]], 2);
-                  newData.push({lat: newVal[0], lng:newVal[1], count: 1});
-                  startPoint[i]['lat'] = newVal[0];
-                  startPoint[i]['lng'] = newVal[1];
+                  newVal = movePoint([newStartPoint[i]['lat'],newStartPoint[i]['lng']], [endPoint[0],endPoint[1]], 2);
+                  newData.push({lat: newVal[0], lng:newVal[1], count: newStartPoint[i]['count']});
+                  newStartPoint[i]['lat'] = newVal[0];
+                  newStartPoint[i]['lng'] = newVal[1];
                 }
             }
 
 
             var testData = {
-                max: 99,
+                max: newData.length,
                 data: newData
               };
             heatmapLayer.setData(testData);
@@ -260,9 +281,30 @@
 
         /*-*/startPoint = pts.filter(p => p.idEtape === 1);/*-*/
 
+        var newStartPoint = [];
+
+        for (var i = 0; i < startPoint.length; i++)
+        {
+          var newCount = 0;
+
+          for (var j = i; j < startPoint.length; j++)
+          {
+            if (startPoint[i]['lat'] == startPoint[j]['lat'] && startPoint[i]['lng'] == startPoint[j]['lng'])
+            {
+              newCount++;
+            }
+          }
+          startPoint[i]['count'] = newCount;
+
+          if (newCount > 0)
+          {
+            newStartPoint.push(startPoint[i]);
+          }
+        }
+
         var testData = {
-            max: 99,
-            data: startPoint
+            max: newStartPoint.length,
+            data: newStartPoint
           };
         heatmapLayer.setData(testData);
     };
