@@ -45,7 +45,7 @@ export const GameResult = () => {
     const co2Tonnes = Math.round(sommeAll.eco * 1000000 / 1000000);
     const co2Trees = Math.round((co2Tonnes*1000)/35);
     const co2TreesPerM2 = Math.round(co2Trees/21);
-    const co2Patate = Math.round((co2Tonnes*1000)/47);
+    const co2Patate = Math.round(co2Tonnes*4.7);
     const co2CarKm = Math.round(co2Tonnes*1000000/180);
     const co2CarEarth = co2CarKm/40075;
 
@@ -97,7 +97,7 @@ export const GameResult = () => {
                                     </li>
                                     <li style={{paddingBottom: 25}}>
                                         Ou la production de
-                                        <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2Patate}{' '}</p> kilos de pommes de terrre
+                                        <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2Patate}{' '}</p> tonnes de pommes de terrre
                                     </li>
                                     <li style={{paddingBottom: 25}}>
                                         Ou bien <p className="has-text-weight-bold is-inline has-text-danger">{' '}{ co2CarKm }{' '}</p>
