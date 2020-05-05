@@ -18,10 +18,11 @@ const hudStyle = {
 
 export const HUD = () => {
     const scenarioId = useSelector((appState: IAppState) => appState.objectiveNb);
+    const gameDone = useSelector((appState: IAppState) => appState.game && appState.game.score);
     // console.log("Scenario Id : ", scenarioId);
     const scenario = (scenarioId || scenarioId === 0) && ScenariosObjectifs[scenarioId];
 
-    return (
+    return gameDone ? null : (
         <div style={hudContainerStyle}>
             <div style={hudStyle} className="notification is-success">
                 { scenario ? scenario.name : ". . ." }
