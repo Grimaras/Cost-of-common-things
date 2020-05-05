@@ -13,8 +13,6 @@ const Localisation = new mongoose.Schema({
     },
     codePays : {
         type : String,
-        minlength : 2,
-        maxlength : 2,
     },
     gps : {
         type : gps,
