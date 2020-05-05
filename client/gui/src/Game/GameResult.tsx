@@ -87,21 +87,21 @@ export const GameResult = () => {
                                     <li style={{paddingBottom: 25}}>
                                         Émissions de dioxyde de carbone :
                                         <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2Tonnes}{' '}</p> tonnes</li>
-                                    <li style={{paddingBottom: 25}}>
+                                    <li style={{paddingBottom: 25, marginLeft : 25}}>
                                         Soit l'absortion par
                                         <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2Trees}{' '}</p> arbres pendant 1 an
                                     </li>
-                                    <li style={{paddingBottom: 25}}>
+                                    <li style={{paddingBottom: 25, marginLeft : 50}}>
                                         Cela represente
                                         <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2TreesPerM2}{' '}</p> mètres carrés de forêt
                                     </li>
-                                    <li style={{paddingBottom: 25}}>
+                                    <li style={{paddingBottom: 25, marginLeft : 25}}>
                                         Ou la production de
                                         <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2Patate}{' '}</p> tonnes de pommes de terrre
                                     </li>
-                                    <li style={{paddingBottom: 25}}>
+                                    <li style={{paddingBottom: 25, marginLeft : 25}}>
                                         Ou bien <p className="has-text-weight-bold is-inline has-text-danger">{' '}{ co2CarKm }{' '}</p>
-                                        kilomètres parcourus par une voiture, soit équivalent à
+                                        kilomètres parcourus par une voiture ce qui équivaut à
                                         <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2CarEarth.toFixed(1) }{' '}</p>
                                          tours du Monde.
                                     </li>
