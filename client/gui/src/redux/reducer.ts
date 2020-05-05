@@ -75,11 +75,11 @@ export const counterReducer = createReducer(initialState, {
         const data = action.payload;
         const allSteps: any[] =  _.uniq(_.map(data, (composant: any) => composant.idEtape));
         const allCriteras = _.map(_.groupBy( data, (composant: any) => composant.idEtape), (c) => _.map(c, (c) => c.criteres));
-        console.log("All fetched criteras", allCriteras);
+        // console.log("All fetched criteras", allCriteras);
         const maxValues = _.map(allCriteras, (criteraPerStep, step) => _.reduce(_.keys(criteraPerStep[0]), (obj, k: any) => {
-            console.log(step, obj);
+            // console.log(step, obj);
             const allValues = _.map(allCriteras, (criteraPerStep) => _.map(criteraPerStep, (c) => c[k]));
-            console.log("All values", allValues);
+            // console.log("All values", allValues);
             return {
                 ...obj,
                 [k]: typeof allValues[step][0] === "number"
@@ -89,7 +89,7 @@ export const counterReducer = createReducer(initialState, {
             }
         }, {}));
 
-        console.log("All max values : ", maxValues);
+        // console.log("All max values : ", maxValues);
 
 
         return { ...state,
@@ -182,7 +182,7 @@ export const counterReducer = createReducer(initialState, {
             prix: 0
         });
 
-        console.log("Somme all = ", sommeAll);
+        // console.log("Somme all = ", sommeAll);
 
         const scenario = ScenariosObjectifs[state.game!.scenarioId];
 

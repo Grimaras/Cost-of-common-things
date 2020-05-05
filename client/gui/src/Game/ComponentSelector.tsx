@@ -21,12 +21,12 @@ export const ComponentSelector = () => {
 
     }, []);
 
-    console.log("Bans : ", bans);
+    // console.log("Bans : ", bans);
 
-    console.log("Composants : ", composants);
-    console.log("Etape courante : ", currentStep);
-    console.log("Current Composants : ", currentComposants);
-    console.log("Usr Composants : ", userComposants);
+    // console.log("Composants : ", composants);
+    // console.log("Etape courante : ", currentStep);
+    // console.log("Current Composants : ", currentComposants);
+    // console.log("Usr Composants : ", userComposants);
 
     const selectionIisFull = userComposants && (userComposants.length === finalStep - 1);
 

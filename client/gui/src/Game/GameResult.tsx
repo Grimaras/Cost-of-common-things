@@ -16,7 +16,7 @@ export const GameResult = () => {
     const rawData = useSelector((app:IAppState) => app.game!);
     const gameId = useSelector((app: IAppState) => app.gameResult && app.gameResult!._id);
 
-    console.log("------------------------------");
+    // console.log("------------------------------");
 
     const sommeAll = _.reduce(rawData.components, (acc, element) => {
         return {
@@ -30,7 +30,7 @@ export const GameResult = () => {
         prix: 0
     });
 
-    console.log("Somme all = ", sommeAll);
+    // console.log("Somme all = ", sommeAll);
 
     /* Final Score */
     const rAndDPro = Math.round(rAndDVal*100)/scenario.criteres.rAndD;

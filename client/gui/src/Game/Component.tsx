@@ -18,7 +18,7 @@ export const Component = (props: IComponentProps) => {
     const hovered = useState(false);
     const onClick = () => dispatch(setFocusedComponent(props.composant._id));
 
-    console.log("Rendering component", props.composant);
+    // console.log("Rendering component", props.composant);
 
     const image = imagesTable[props.composant.image];
     return <div className={"notification is-dark"} style={{width: 200, height: 800, padding: 10, cursor: 'pointer', opacity: props.banned ? 0.2 : 1}} onClick={onClick}>

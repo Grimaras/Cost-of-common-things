@@ -18,7 +18,7 @@ const hudStyle = {
 
 export const HUD = () => {
     const scenarioId = useSelector((appState: IAppState) => appState.objectiveNb);
-    console.log("Scenario Id : ", scenarioId);
+    // console.log("Scenario Id : ", scenarioId);
     const scenario = (scenarioId || scenarioId === 0) && ScenariosObjectifs[scenarioId];
 
     return (

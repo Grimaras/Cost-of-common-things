@@ -19,7 +19,7 @@ export const Main = () => {
             dispatch(companionSendPong());
 
             HTTPClient.GET("/components").then((res) => {
-                console.log("Response : ", res);
+                // console.log("Response : ", res);
                 res.json().then((components) => {
                     dispatch(companionLoadDone(components))
                 });

@@ -40,12 +40,12 @@ const Etape = () => {
 export const Etapes = () => {
     const dispatch = useDispatch();
     const currentStep = useSelector((appState: IAppState) => appState.game && appState.game.currentStep);
-    console.log("ETAPES", currentStep);
+    // console.log("ETAPES", currentStep);
 
     const maybeSelectedComponents = useSelector((appState: IAppState) => appState.game && appState.game.components);
     const latestEtapes = useMemo( () => maybeSelectedComponents && Math.max(...maybeSelectedComponents.map(c => etapes.findIndex(e => e.id === c.idEtape))),
         [maybeSelectedComponents]);
-    console.log("Latest etapes : ", latestEtapes);
+    // console.log("Latest etapes : ", latestEtapes);
 
     const onClick = (e: IEtape) => () => dispatch(setStep(e.id));
 

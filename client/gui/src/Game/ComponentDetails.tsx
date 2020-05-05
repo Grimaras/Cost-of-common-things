@@ -11,17 +11,17 @@ export const ComponentDetails = ({component, banned} : {component: any, banned: 
 
     const maxCriteraValuesPerStep = useSelector((appState: IAppState) => appState.cache.maxCriteraValues);
 
-    console.log("Selected component : ", component);
+    // console.log("Selected component : ", component);
     const maxCriteraValues = maxCriteraValuesPerStep[component.idEtape - 1];
     const selectedComponents = useSelector((app: IAppState) => app.game && app.game.components);
     const selected = selectedComponents && selectedComponents.includes(component);
 
-    console.log(maxCriteraValues);
+    // console.log(maxCriteraValues);
 
     const onClickAdd = () => dispatch(chooseComponent(component));
     const onClickDelete = () => dispatch(deleteComponent(component._id));
 
-    console.log("Component img : ", component.image);
+    // console.log("Component img : ", component.image);
 
     return (
         <>

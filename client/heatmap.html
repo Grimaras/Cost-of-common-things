@@ -160,7 +160,7 @@
 
       Client.GET("components").then((res1) => {
         res1.json().then((composants) => {
-          console.log("Composants : ", composants);
+          // console.log("Composants : ", composants);
           const urlParams = new URLSearchParams(window.location.search);
           Client.GET("gameresult/" + urlParams.get("gId")).then((res2) => {
             res2.json().then((gameResult) => {
@@ -169,15 +169,21 @@
                 const allGPS = allEtapes.flatMap(fab => ({idEtape: fab.idEtape, gps: fab.localisation.gps}))
                         .map(({idEtape, gps}) => ({lat: gps.x, lng: gps.y, count: 1, idEtape: idEtape}));
                 const dioCar = gameResult.criteres.eco;
-                console.log("Tous les points", allGPS);
-                console.log("Componsants du joueur ", userComposants);
-                console.log("Toutes les etapes des composants du joueur ", allEtapes);
-                console.log("Resultat du jeu : ", gameResult);
+                // console.log("Tous les points", allGPS);
+                // console.log("Componsants du joueur ", userComposants);
+                // console.log("Toutes les etapes des composants du joueur ", allEtapes);
+                // console.log("Resultat du jeu : ", gameResult);
                 startMap(allGPS);
-                console.log(nextButton.children);
+                // console.log(nextButton.children);
                 nextButton.children[0].disabled = false;
 
-                allEtapes.forEach((e) => {
+                // console.log("Toutes etapes : ", allEtapes);
+                const etapesIds = allEtapes.map((etape) => etape.localisation.codePays);
+                const etapesFiltres = allEtapes.filter((v,i) => etapesIds.indexOf(v.localisation.codePays) === i);
+
+                // console.log("Toutes etapes filtrees : ", etapesFiltres);
+
+                etapesFiltres.forEach((e) => {
                   if (e.localisation.description !== "") {
                     renderFact(e);
                   }
