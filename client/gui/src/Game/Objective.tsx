@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import useTypewriter from "react-use-typewriter";
 import {useDispatch, useSelector} from "react-redux";
 import {IAppState, startGame} from "../redux/reducer";
@@ -32,6 +32,12 @@ export const Objective = () => {
         dispatch(startGame());
         startGameTicking();
     };
+
+    const [disabled, setDisabled] = React.useState(true);
+
+    useEffect(() => {
+        setTimeout(() => setDisabled(false), 500);
+    }, []);
     const objectiveNb = useSelector((app: IAppState) => app.objectiveNb);
 
     const scenario = ScenariosObjectifs[objectiveNb!];
@@ -50,7 +56,7 @@ export const Objective = () => {
                         {currentWord}
                         <span className="cursor">|</span>
                     </h2>
-                    <button className="button is-success" onClick={onClickStart}>
+                    <button className="button is-success" onClick={onClickStart} disabled={disabled}>
                         Accepter la mission
                     </button>
                     <hr />
