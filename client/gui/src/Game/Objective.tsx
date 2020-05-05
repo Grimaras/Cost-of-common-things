@@ -9,7 +9,7 @@ export const ScenariosObjectifs = [{
         name: "Flagship Killer",
         description: "Vous avez pour mission de créer le nouveau porte drapeau de l'entreprise, soyez ingenieux pour créer un télephone très performant !",
         criteres: {
-            rAndD: 6000,
+            rAndD: 12000,
             prix: 500,
             perf: 450
         },
@@ -18,7 +18,7 @@ export const ScenariosObjectifs = [{
         name: "Cost Killer",
         description: "Vous avez pour mission de créer le télephone d'entrée de gamme de l'entreprise. Trouvez le compromis ingenieux entre performance et coût de fabrication !",
         criteres: {
-            rAndD: 8000,
+            rAndD: 16000,
             prix: 100,
             perf:200
         }

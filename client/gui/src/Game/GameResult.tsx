@@ -53,7 +53,7 @@ export const GameResult = () => {
     return (
         <section className="hero is-medium is-primary is-bold is-fullheight">
             <HUD/>
-            <div className="body" style={{paddingTop: 50}}>
+            <div className="body">
                 <div className="container">
                     <p className="title is-1 is-spaced" style={{marginBottom: 20}}>Les résultats de votre projet :</p>
                     <br />
