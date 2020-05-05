@@ -19,7 +19,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "AU",
+          "codePays": "Australie",
           "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.836746,
@@ -31,7 +31,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Manganese",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -31.914973,
@@ -43,7 +43,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Coltan",
-          "codePays": "CG",
+          "codePays": "Congo",
           "description": "",
           "gps": {
             "x": -2.121519,
@@ -74,7 +74,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "CL",
+          "codePays": "Chilie",
           "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
@@ -86,7 +86,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Manganese",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 40.193078,
@@ -98,7 +98,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Coltan",
-          "codePays": "RW",
+          "codePays": "Rwanda",
           "description": "L'exportation des minerais au Rwanda est la plus haute source de revenu après le tourisme et représente 14.9% des exportations. Néanmoins, l'exploitation des mines se sont arrêtée près de la rivière de Sebeya à cause de la pollution qui en plus, détruit le gagne pain des locales de la zone.",
           "gps": {
             "x": -1.831014,
@@ -129,7 +129,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "AU",
+          "codePays": "Australie",
           "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.836746,
@@ -141,7 +141,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Manganese",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 40.193078,
@@ -153,7 +153,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Coltan",
-          "codePays": "CG",
+          "codePays": "Congo",
           "description": "",
           "gps": {
             "x": -2.121519,
@@ -184,7 +184,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "CL",
+          "codePays": "Chilie",
           "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
@@ -196,7 +196,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Manganese",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -31.914973,
@@ -208,7 +208,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Coltan",
-          "codePays": "BR",
+          "codePays": "Brésil",
           "description": "",
           "gps": {
             "x": -18.472429,
@@ -239,7 +239,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Indium",
-          "codePays": "KR",
+          "codePays": "Corée du Sud",
           "description": "",
           "gps": {
             "x": 35.582298,
@@ -263,7 +263,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Sable",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
@@ -275,8 +275,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Aluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -287,8 +287,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -318,8 +318,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Indium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 28.782781,
             "y": 97.964380
@@ -330,8 +330,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Tin",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 33.417323,
             "y": 104.169898
@@ -342,7 +342,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Sable",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
@@ -354,8 +354,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Aluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -366,8 +366,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -397,7 +397,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Indium",
-          "codePays": "KR",
+          "codePays": "Corée du Sud",
           "description": "",
           "gps": {
             "x": 35.582298,
@@ -409,8 +409,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Tin",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 33.417323,
             "y": 104.169898
@@ -421,7 +421,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Sable",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
@@ -433,8 +433,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Aluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -445,7 +445,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "RU",
+          "codePays": "Russie",
           "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 66.862018,
@@ -476,8 +476,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Indium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 28.782781,
             "y": 97.964380
@@ -500,7 +500,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Sable",
-          "codePays": "US",
+          "codePays": "État-Unis",
           "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
@@ -512,8 +512,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Aluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -524,8 +524,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -554,8 +554,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -566,8 +566,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Arsenic",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -578,8 +578,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Phosphore",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 31.556925,
             "y": 109.702267
@@ -590,8 +590,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Galium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -602,8 +602,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Antimoine",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
@@ -632,7 +632,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "RU",
+          "codePays": "Russie",
           "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 66.862018,
@@ -644,7 +644,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Arsenic",
-          "codePays": "MA",
+          "codePays": "Maroc",
           "description": "Après 5ans d'exploitation minières dans le petit village Askaoun, les villageois en découvrent les conséquences. Les conditions de vie sont devenues très difficiles, le bruit y règne, les systèmes d'irrigations sont dérangés et l'eau devient manquante.",
           "gps": {
             "x": 31.421874,
@@ -656,7 +656,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Phosphore",
-          "codePays": "MA",
+          "codePays": "Maroc",
           "description": "Après 5ans d'exploitation minières dans le petit village Askaoun, les villageois en découvrent les conséquences. Les conditions de vie sont devenues très difficiles, le bruit y règne, les systèmes d'irrigations sont dérangés et l'eau devient manquante.",
           "gps": {
             "x": 30.889622,
@@ -668,8 +668,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Galium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -680,8 +680,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Antimoine",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
@@ -710,8 +710,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -722,8 +722,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Arsenic",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -734,7 +734,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Phosphore",
-          "codePays": "MA",
+          "codePays": "Maroc",
           "description": "Après 5ans d'exploitation minières dans le petit village Askaoun, les villageois en découvrent les conséquences. Les conditions de vie sont devenues très difficiles, le bruit y règne, les systèmes d'irrigations sont dérangés et l'eau devient manquante.",
           "gps": {
             "x": 30.889622,
@@ -746,8 +746,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Galium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -758,8 +758,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Antimoine",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
@@ -788,8 +788,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Silicium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -800,8 +800,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Arsenic",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -812,7 +812,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Phosphore",
-          "codePays": "MA",
+          "codePays": "Maroc",
           "description": "Après 5ans d'exploitation minières dans le petit village Askaoun, les villageois en découvrent les conséquences. Les conditions de vie sont devenues très difficiles, le bruit y règne, les systèmes d'irrigations sont dérangés et l'eau devient manquante.",
           "gps": {
             "x": 30.889622,
@@ -824,8 +824,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Galium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -836,8 +836,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Antimoine",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
@@ -866,8 +866,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -878,8 +878,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -890,7 +890,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -11.817508,
@@ -902,7 +902,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -932,8 +932,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -944,7 +944,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "RU",
+          "codePays": "Russie",
           "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 58.856881,
@@ -956,7 +956,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "MX",
+          "codePays": "Méxique",
           "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
@@ -968,7 +968,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -998,7 +998,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CL",
+          "codePays": "Chilie",
           "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
@@ -1010,7 +1010,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "AU",
+          "codePays": "Australie",
           "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.731408,
@@ -1022,7 +1022,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -11.817508,
@@ -1034,7 +1034,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1064,7 +1064,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -6.083460,
@@ -1076,8 +1076,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -1088,7 +1088,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "MX",
+          "codePays": "Méxique",
           "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
@@ -1100,7 +1100,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1130,8 +1130,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -1142,7 +1142,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "RU",
+          "codePays": "Russie",
           "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 58.856881,
@@ -1154,7 +1154,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "MX",
+          "codePays": "Méxique",
           "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
@@ -1166,7 +1166,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1196,8 +1196,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -1208,8 +1208,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -1220,7 +1220,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -11.817508,
@@ -1232,7 +1232,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1262,7 +1262,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CL",
+          "codePays": "Chilie",
           "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
@@ -1274,7 +1274,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "AU",
+          "codePays": "Australie",
           "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.731408,
@@ -1286,7 +1286,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -11.817508,
@@ -1298,7 +1298,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1328,7 +1328,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "CL",
+          "codePays": "Chilie",
           "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
@@ -1340,7 +1340,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Or",
-          "codePays": "AU",
+          "codePays": "Australie",
           "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.731408,
@@ -1352,7 +1352,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Argent",
-          "codePays": "PE",
+          "codePays": "Pérou",
           "description": "Depuis des décenies, l'exploitation des minerais au Pérou a durement impacté l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales résultantes donnent lieu à des manifestations paysanes et il n'est pas rare que les habitants aient recours à la violence contre les activités minières.",
           "gps": {
             "x": -11.817508,
@@ -1364,7 +1364,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Platine",
-          "codePays": "ZA",
+          "codePays": "Afrique du Sud",
           "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
@@ -1395,7 +1395,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Petrol",
-          "codePays": "SA",
+          "codePays": "Arabie Saoudite",
           "description": "",
           "gps": {
             "x": 24.500020,
@@ -1407,8 +1407,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Acier",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 38.302502,
             "y": 100.670732
@@ -1419,8 +1419,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Alluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 40.818820,
             "y": 118.982310
@@ -1450,7 +1450,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Petrol",
-          "codePays": "SA",
+          "codePays": "Arabie Saoudite",
           "description": "",
           "gps": {
             "x": 24.500020,
@@ -1462,7 +1462,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Acier",
-          "codePays": "JP",
+          "codePays": "Japon",
           "description": "Au Japon, 1600 hectares de terres agricoles, villes et villages ont été endommagé par l'inondation provoqué par l'empoisonnement du cuivre due aux mines de cuivre.",
           "gps": {
             "x": 35.699457,
@@ -1474,8 +1474,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Alluminium",
-          "codePays": "CN",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré",
+          "codePays": "Chine",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
           "gps": {
             "x": 40.818820,
             "y": 118.982310
@@ -1505,7 +1505,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Petrol",
-          "codePays": "SA",
+          "codePays": "Arabie Saoudite",
           "description": "",
           "gps": {
             "x": 24.500020,
@@ -1536,7 +1536,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Petrol",
-          "codePays": "SA",
+          "codePays": "Arabie Saoudite",
           "description": "",
           "gps": {
             "x": 24.500020,
