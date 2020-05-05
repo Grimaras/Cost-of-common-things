@@ -81,7 +81,7 @@ export const GameResult = () => {
 
                         <div className="column" style={{marginLeft: 50, marginRight: 20}}>
                             <article>
-                                <p className="title is-4"> Voici la représentation en quelques chiffres pour une production de 1.000.000 téléphones selon votre design : </p>
+                                <p className="title is-4"> Voici la représentation en quelques chiffres pour le transport nécessaire à la production de 1.000.000 de téléphones selon votre design : </p>
                                 <br />
                                 <ol className="has-text-left has-margin-3" style={{listStyleType: "circle"}}>
                                     <li style={{paddingBottom: 25}}>
