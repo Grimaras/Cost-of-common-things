@@ -489,7 +489,7 @@
         "localisation": {
           "name": "Tin",
           "codePays": "MM",
-          "description": "",
+          "description": "Myanmar (ou Birmanie) est un pays qui a ete aux mains d'une ginte millitaire autoritaire durant des decenies. En plus de nombreux rapports evoquant une pollution des sols en augmentation a proximite des sites, temoignant d'un mauvais traitement des dechets, l'ouverture aux investissements etrangers voulus par la politique du gouvernement de Aung San Suu Kyi, precedemment rebelle persecutee, entraine une frenesie des investissements et la repression violente par le gouvernement des manifestations par la voie judiciaire ou alors l'utilisation d'armes au Phosphore.",
           "gps": {
             "x": 21.628475,
             "y": 96.586587
@@ -891,7 +891,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "PE",
-          "description": "",
+          "description": "Depuis des decenies, l'exploitation des minerais au Perou a durement impacte l'approvisionnement en eau au point de toucher l'agriculture de subsistance locale. Les tensions sociales resultantes donnent lieu a des manifestations paysanes et il n'est pas rare que les habitants aient recours a la violence contre les activites minieres.",
           "gps": {
             "x": -11.817508,
             "y": -74.469131
@@ -903,7 +903,7 @@
         "localisation": {
           "name": "Platine",
           "codePays": "ZA",
-          "description": "",
+          "description": "En 1980, l'exploitation miniere representait 21% represente aujourd'hui seulement 7% de leur PIB. La fermeture de nombreuses mines et la non collecte des dechets miniers a des repercusions sur les habitants qui inhalent quotidiennement des poussieres nocives. Egalement, la forte pression budgetaire des compagnies a entraine des coupes budgetaires dans leurs operations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, creant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
             "y": 19.623143
@@ -945,7 +945,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "RU",
-          "description": "",
+          "description": "Construire pour et donc tres proche des mines, les villes des industries minieres en Russie sont particulierement exposes. On peut nottamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante a ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 58.856881,
             "y": 66.147813
@@ -957,7 +957,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "MX",
-          "description": "",
+          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784
@@ -969,7 +969,7 @@
         "localisation": {
           "name": "Platine",
           "codePays": "ZA",
-          "description": "",
+          "description": "En 1980, l'exploitation miniere representait 21% represente aujourd'hui seulement 7% de leur PIB. La fermeture de nombreuses mines et la non collecte des dechets miniers a des repercusions sur les habitants qui inhalent quotidiennement des poussieres nocives. Egalement, la forte pression budgetaire des compagnies a entraine des coupes budgetaires dans leurs operations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, creant de nombreuses tensions sociales.",
           "gps": {
             "x": -30.427002,
             "y": 19.623143
@@ -1089,7 +1089,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "MX",
-          "description": "",
+          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784
@@ -1155,7 +1155,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "MX",
-          "description": "",
+          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784

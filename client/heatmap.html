@@ -91,35 +91,16 @@
       <div class="modal-card">
         <!-- Any other Bulma elements you want -->
         <header class="modal-card-head has-text-centered">
-          <p class="modal-card-title is-centered">Impact de votre projet sur l'environnement :</p>
+          <p class="modal-card-title is-centered">Au dela des chiffres </p>
         </header>
 
         <section class="modal-card-body">
-          <p class="subtitle has-text-centered"> Voici la représentation en quelques chiffres pour une production de 1.000.000 téléphones selon votre design : </p>
           <br>
           <div class="">
-            <ul>
-              <li>Émissions de dioxyde de carbone : <div class="is-inline" id="scCO2" style="font-weight: bold;"></div> tonnes</li>
-              <hr />
-              <li>Soit l'absortion par <div class="is-inline" id="scTree" style="font-weight: bold;"></div> arbres pendant 1 an</li>
-              <hr />
-              <li>Cela represente <div class="is-inline" id="scTreeSize" style="font-weight: bold;"></div> mètres carres du foret</li>
-              <hr />
-              <li>Ou la production de <div class="is-inline" id="scPatate" style="font-weight: bold;"></div> kilos de pommes de terrre</li>
-              <hr />
-              <li>Ou bien <div class="is-inline" id="scCar" style="font-weight: bold;"></div> km parcourus par une voiture, soit équivalent à <div class="is-inline" id="scCarEarth" style="font-weight: bold;"></div> tours du Monde.</li>
-                <!--
-                  <li>En ???</li>
-                !-->
-              <div>
-              </div>
+            <ul id="factsContainer">
             </ul>
           </div>
           <br>
-          <p class="subtitle has-text-centered"> Par rapport le monde :</p>
-          <div class="">
-            <p>Dans le monde, en 2017, 1.56 milliards de téléphones ont été vendu. En admettant que tout les téléphones vendus dans le monde sont celui qui vient d'être créé voici ce qu'a généré le transport des minerais nécessaires à leur création</p>
-          </div>
         </section>
 
         <footer class="modal-card-foot" style="display:flex; justify-content: space-around">
@@ -137,6 +118,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script>
     let nextButton;
+    let factsContainer;
     let loader;
     let modal;
 
@@ -164,9 +146,16 @@
       GET: (uri) => fetch(GET_BACKEND_URL() + "api/" + uri)
     };
 
+    const renderFact = (etape) => {
+      factsContainer.innerHTML = factsContainer.innerHTML + `
+            <li><b>[` + etape.localisation.codePays + `]</b> : <p>` + etape.localisation.description + `</p></li><br />
+      `;
+    };
+
     document.addEventListener("DOMContentLoaded", () => {
       nextButton = document.getElementsByClassName("topButton")[0];
       modal = document.getElementById("modal");
+      factsContainer = document.getElementById("factsContainer");
       loader = document.getElementsByClassName("lds-ellipsis")[0];
 
       Client.GET("components").then((res1) => {
@@ -188,6 +177,12 @@
                 console.log(nextButton.children);
                 nextButton.children[0].disabled = false;
 
+                allEtapes.forEach((e) => {
+                  if (e.localisation.description !== "") {
+                    renderFact(e);
+                  }
+                });
+
                 setTimeout(() => {
                     loader.className = "";
                     nextButton.style.visibility = "visible";
@@ -199,7 +194,6 @@
                   setTimeout(() => {
                     modal.className = modal.className + " is-active"
                   }, 7000);
-                  showScore(dioCar);
                 }
             });
           });
