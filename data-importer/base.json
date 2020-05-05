@@ -44,7 +44,7 @@
         "localisation": {
           "name": "Coltan",
           "codePays": "Congo",
-          "description": "",
+          "description": "Au Congo, le minage du colbalt se fait souvent près des villes et des villages, de ce fait, les résidants sont expulsés et se retrouvent dans des lieux sans eaux potables, terres fertiles et écoles. L'air se retrouve également poluée avec les travaux qui se font.",
           "gps": {
             "x": -2.121519,
             "y": 15.189077
@@ -74,7 +74,7 @@
         "localisation": {
           "name": "Lithium",
           "codePays": "Chili",
-          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "description": "Le Chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
             "y": -68.249914
@@ -86,7 +86,7 @@
         "localisation": {
           "name": "Manganese",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 40.193078,
             "y": -112.981328
@@ -140,7 +140,7 @@
         "localisation": {
           "name": "Manganese",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 40.193078,
             "y": -112.981328
@@ -152,7 +152,7 @@
         "localisation": {
           "name": "Coltan",
           "codePays": "Congo",
-          "description": "",
+          "description": "Au Congo, le minage du colbalt se fait souvent près des villes et des villages, de ce fait, les résidants sont expulsés et se retrouvent dans des lieux sans eaux potables, terres fertiles et écoles. L'air se retrouve également poluée avec les travaux qui se font.",
           "gps": {
             "x": -2.121519,
             "y": 15.189077
@@ -182,7 +182,7 @@
         "localisation": {
           "name": "Lithium",
           "codePays": "Chili",
-          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "description": "Le Chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
             "y": -68.249914
@@ -206,7 +206,7 @@
         "localisation": {
           "name": "Coltan",
           "codePays": "Brésil",
-          "description": "",
+          "description": "En 2015, 1500 hectares ont été détruits dans les désastres environnementaux, les métaux toxiques dans le sol commencent à resortir et la pêche et le tourisme sont soumis au risque de contamination chronique.",
           "gps": {
             "x": -18.472429,
             "y": -55.058488
@@ -260,7 +260,7 @@
         "localisation": {
           "name": "Sable",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
             "y": -119.018860
@@ -338,7 +338,7 @@
         "localisation": {
           "name": "Sable",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
             "y": -119.018860
@@ -416,7 +416,7 @@
         "localisation": {
           "name": "Sable",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
             "y": -119.018860
@@ -494,7 +494,7 @@
         "localisation": {
           "name": "Sable",
           "codePays": "État-Unis",
-          "description": "La moitié de la production de minerais proviennent de l'Amérique, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
+          "description": "La moitié de la production mondiale de minerais provient du Nouveau Monde, cependant, de nombreuses galeries ont été abondonnées à ciel ouvert et restent un caractère dévastateur pour l'environnement, comme la polution des eaux. Mais l'exploitation de nouvelles mines continues encore aujourd'hui et reste un impact paysager et est à l'origine d'une montée des oppositions et d'une augmentation des conflits avec les communautées locales.",
           "gps": {
             "x": 36.895491,
             "y": -119.018860
@@ -985,7 +985,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chili",
-          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "description": "Le Chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
@@ -1245,7 +1245,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chili",
-          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "description": "Le Chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
@@ -1310,7 +1310,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chili",
-          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "description": "Le Chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
