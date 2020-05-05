@@ -51,7 +51,7 @@ export const ComponentSelector = () => {
                 <p>
                     {
                         selectionIisFull
-                            ? <>Vous avez selectionne tous les composants possible. Souhaitez vous valider ?<br />
+                            ? <>Vous avez sélectionné tous les composants possible. Souhaitez vous valider ?<br />
                     Vous pouvez toujours changer les composants.</>
                             : `Vous n'avez pas encore choisi tous les composants`
                     }

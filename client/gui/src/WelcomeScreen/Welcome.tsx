@@ -29,17 +29,17 @@ export const Welcome = () => {
                         <div className="columns">
                             <div className="column">
                                 <h1 className="title"> Construisez un telephone</h1>
-                                Un telephone est compose de nombreux composants comme la Batterie, l'Ecran et le processeur
-                                A chaque etape, choissez le composant qui correspond le mieux au telephone que vous devez construire !
+                                Un télephone est composé de nombreux composants comme la batterie, l'écran et le processeur
+                                A chaque etape, choissez le composant qui correspond le mieux au télephone que vous devez construire !
                             </div>
                             <div className="column">
                                 <h1 className="title"> Soyez Rapides</h1>
-                                Chaque seconde que vous passez a choisir vos composants augmente le budget de Recherche et Developpement
+                                Chaque seconde que vous passez à choisir vos composants augmente le budget de Recherche et Développement
                             </div>
                              <div className="column">
                                 <h1 className="title"> Entree ou haut de gamme</h1>
-                                 Dimensionner correctement son telephone est important, construirez vous un telephone d'entree de gamme qui doit
-                                 se vendre beaucoup afin de rencontrer du succes ou alors un telephone haut de gamme qui compte sur un marche de niche?
+                                 Dimensionner correctement son telephone est important. Construirez vous un télephone d'éntrée de gamme qui doit
+                                 se vendre beaucoup afin de rencontrer du succes ou alors un télephone haut de gamme qui compte sur un marche de niche?
                             </div>
                             <div className="column">
                                 <h1 className="title"> Faites le bon choix</h1>

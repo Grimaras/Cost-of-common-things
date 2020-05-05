@@ -8,7 +8,7 @@ const SERVICE_PORT = process.env["SERVICE_PORT"] || "80";
 
 exports.home = (req, res) => {
     try {
-        const msg = '<h2>Welcome to Aperture Science Enrichissement Center !</h2><img src="https://i.ytimg.com/vi/AenC4B59rSA/maxresdefault.jpg"/>';
+        const msg = '<h2>Welcome to Phone tycoon !</h2><img src="https://i.ytimg.com/vi/AenC4B59rSA/maxresdefault.jpg"/>';
 
         res.set('Content-Type', 'text/html');
         res.status(200).send(msg);

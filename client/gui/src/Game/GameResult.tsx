@@ -93,7 +93,7 @@ export const GameResult = () => {
                                     </li>
                                     <li style={{paddingBottom: 25}}>
                                         Cela represente
-                                        <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2TreesPerM2}{' '}</p> mètres carres de foret
+                                        <p className="has-text-weight-bold is-inline has-text-danger">{' '}{co2TreesPerM2}{' '}</p> mètres carrés de forêt
                                     </li>
                                     <li style={{paddingBottom: 25}}>
                                         Ou la production de

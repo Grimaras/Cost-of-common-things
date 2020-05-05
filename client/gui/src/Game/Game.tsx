@@ -28,7 +28,6 @@ export const endGame = () => {
     const dispatch = store.dispatch;
     dispatch(stopGame());
     HTTPClient.POST("/gameresult", store.getState().game).then((res) => {
-        // TODO: ICI DUDEK FAIT UN TRUC POUR AFFICHER LES RESULTATS :)
         res.json().then((game) => {
             dispatch(receptResult(game));
             dispatch(setStep(-1));
