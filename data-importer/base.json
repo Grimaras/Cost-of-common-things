@@ -20,7 +20,7 @@
         "localisation": {
           "name": "Lithium",
           "codePays": "Australie",
-          "description": "Les 6 plus grandes compagnies de production de charbon australienne ont relaché 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
+          "description": "En 2018, les 6 plus grandes compagnies de production de charbon australienne ont relachée 551 millions de tonnes de dioxide de carbone dans l'atmosphère dans le monde, dont 534 millions de tonnes en Australie seulement.",
           "gps": {
             "x": -33.836746,
             "y": 116.050501
@@ -32,7 +32,7 @@
         "localisation": {
           "name": "Manganese",
           "codePays": "Afrique du Sud",
-          "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainé des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
+          "description": "En 1980, l'exploitation minière représentait 21% du PIB, mais aujourd'hui, elle en représente seulement 7%. La fermeture de nombreuses mines et la non collecte des déchets miniers a des répercusions sur les habitants qui inhalent quotidiennement des poussières nocives. Également, la forte pression budgetaire des compagnies a entrainée des coupes budgetaires dans leurs opérations affectant leurs operations de traitement des dechets mais aussi la protection des travailleurs, créant de nombreuses tensions sociales.",
           "gps": {
             "x": -31.914973,
             "y": 23.142326
@@ -51,8 +51,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85856097492b69d95db4",
@@ -74,8 +73,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "Chilie",
-          "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "codePays": "Chili",
+          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
             "y": -68.249914
@@ -106,8 +105,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85856097492b69d95db5",
@@ -161,8 +159,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85856097492b69d95db6",
@@ -184,8 +181,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Lithium",
-          "codePays": "Chilie",
-          "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "codePays": "Chili",
+          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -23.499763,
             "y": -68.249914
@@ -216,8 +213,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85856097492b69d95db7",
@@ -276,7 +272,7 @@
         "localisation": {
           "name": "Aluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -288,15 +284,14 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85866097492b69d95db8",
@@ -319,7 +314,7 @@
         "localisation": {
           "name": "Indium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 28.782781,
             "y": 97.964380
@@ -331,7 +326,7 @@
         "localisation": {
           "name": "Tin",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 33.417323,
             "y": 104.169898
@@ -355,7 +350,7 @@
         "localisation": {
           "name": "Aluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -367,15 +362,14 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85866097492b69d95db9",
@@ -410,7 +404,7 @@
         "localisation": {
           "name": "Tin",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 33.417323,
             "y": 104.169898
@@ -434,7 +428,7 @@
         "localisation": {
           "name": "Aluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -446,15 +440,14 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Russie",
-          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
+          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposées. On peut notamment citer la ville d'Asbest, avec en son sein une mine d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 66.862018,
             "y": 126.839125
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85866097492b69d95dba",
@@ -477,7 +470,7 @@
         "localisation": {
           "name": "Indium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 28.782781,
             "y": 97.964380
@@ -488,7 +481,7 @@
         "idEtape": 1,
         "localisation": {
           "name": "Tin",
-          "codePays": "MM",
+          "codePays": "Myanmar",
           "description": "Myanmar (ou Birmanie) est un pays qui a été aux mains d'une junte millitaire autoritaire durant des décennies. En plus de nombreux rapports évoquant une pollution des sols en augmentation à proximité des sites, témoignant d'un mauvais traitement des déchets, l'ouverture aux investissements étrangers voulus par la politique du gouvernement de Aung San Suu Kyi, précédemment rebelle persécutée, entraine une frénésie des investissements et la répression violente par le gouvernement des manifestations par la voie judiciaire ou alors l'utilisation d'armes au Phosphore.",
           "gps": {
             "x": 21.628475,
@@ -513,7 +506,7 @@
         "localisation": {
           "name": "Aluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 36.210091,
             "y": 80.129133
@@ -525,15 +518,14 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85866097492b69d95dbb",
@@ -555,7 +547,7 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -567,7 +559,7 @@
         "localisation": {
           "name": "Arsenic",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -579,7 +571,7 @@
         "localisation": {
           "name": "Phosphore",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 31.556925,
             "y": 109.702267
@@ -591,7 +583,7 @@
         "localisation": {
           "name": "Galium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -603,15 +595,14 @@
         "localisation": {
           "name": "Antimoine",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85866097492b69d95dbc",
@@ -633,7 +624,7 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Russie",
-          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
+          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposées. On peut notamment citer la ville d'Asbest, avec en son sein une mine d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 66.862018,
             "y": 126.839125
@@ -669,7 +660,7 @@
         "localisation": {
           "name": "Galium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -681,15 +672,14 @@
         "localisation": {
           "name": "Antimoine",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85876097492b69d95dbd",
@@ -711,7 +701,7 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -723,7 +713,7 @@
         "localisation": {
           "name": "Arsenic",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -747,7 +737,7 @@
         "localisation": {
           "name": "Galium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -759,15 +749,14 @@
         "localisation": {
           "name": "Antimoine",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85876097492b69d95dbe",
@@ -789,7 +778,7 @@
         "localisation": {
           "name": "Silicium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 32.432158,
             "y": 81.070138
@@ -801,7 +790,7 @@
         "localisation": {
           "name": "Arsenic",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 41.634666,
             "y": 79.994990
@@ -825,7 +814,7 @@
         "localisation": {
           "name": "Galium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 37.780305,
             "y": 87.164123
@@ -837,15 +826,14 @@
         "localisation": {
           "name": "Antimoine",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 26.826503,
             "y": 103.116482
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85876097492b69d95dbf",
@@ -867,7 +855,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -879,7 +867,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -910,8 +898,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "idComponent": 14,
@@ -933,7 +920,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -945,7 +932,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "Russie",
-          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
+          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposées. On peut notamment citer la ville d'Asbest, avec en son sein une mine d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 58.856881,
             "y": 66.147813
@@ -957,7 +944,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "Méxique",
-          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
+          "description": "Le méxique est le plus grand producteur d'argent avec 15% de la production mondiale en 2002, les societe minières font souvent face a une forte opposition locale. Néanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants régulièrement face aux avantages de développement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784
@@ -976,8 +963,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85876097492b69d95dc1",
@@ -998,8 +984,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "Chilie",
-          "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "codePays": "Chili",
+          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
@@ -1042,8 +1028,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85886097492b69d95dc2",
@@ -1077,7 +1062,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -1089,7 +1074,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "Méxique",
-          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
+          "description": "Le méxique est le plus grand producteur d'argent avec 15% de la production mondiale en 2002, les societe minières font souvent face a une forte opposition locale. Néanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants régulièrement face aux avantages de développement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784
@@ -1108,8 +1093,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85886097492b69d95dc3",
@@ -1131,7 +1115,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -1143,7 +1127,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "Russie",
-          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposés. On peut notamment citer la ville d'Asbest, avec en son sein une mine a d'Amiante à ciel ouvert vue comme une attraction locale.",
+          "description": "Construites pour et donc très proche des mines, les villes des industries minières en Russie sont particulièrement exposées. On peut notamment citer la ville d'Asbest, avec en son sein une mine d'Amiante à ciel ouvert vue comme une attraction locale.",
           "gps": {
             "x": 58.856881,
             "y": 66.147813
@@ -1155,7 +1139,7 @@
         "localisation": {
           "name": "Argent",
           "codePays": "Méxique",
-          "description": "Le mexique est le plus grand producteur d'argent avec 15% de la production en 2002, les societe minieres font souvent face a une forte opposition locale. Neanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants regulierement face aux avantages de developpement qu'offre ses projets.",
+          "description": "Le méxique est le plus grand producteur d'argent avec 15% de la production mondiale en 2002, les societe minières font souvent face a une forte opposition locale. Néanmoins, dans les terres du Mexique les dirigeants locaux intimident ou font taires les opposants régulièrement face aux avantages de développement qu'offre ses projets.",
           "gps": {
             "x": 24.789653,
             "y": -106.280784
@@ -1174,8 +1158,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85886097492b69d95dc4",
@@ -1197,7 +1180,7 @@
         "localisation": {
           "name": "Cuivre",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 39.063963,
             "y": 75.291239
@@ -1209,7 +1192,7 @@
         "localisation": {
           "name": "Or",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 38.661967,
             "y": 99.777351
@@ -1240,8 +1223,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85886097492b69d95dc5",
@@ -1262,8 +1244,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "Chilie",
-          "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "codePays": "Chili",
+          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
@@ -1306,8 +1288,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85896097492b69d95dc6",
@@ -1328,8 +1309,8 @@
         "idEtape": 1,
         "localisation": {
           "name": "Cuivre",
-          "codePays": "Chilie",
-          "description": "La chilie est des un principaux pays de l'exploitation minière, mais représente en conséquence un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts, la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
+          "codePays": "Chili",
+          "description": "Le chili est des un principaux pays de l'exploitation minière, mais représente, en conséquence, un grand défi environnemental. La consommation d'eau est très forte notamment dans les déserts et la poussières due au minage peut également accélérer la fonte des glaces. Des locales souffrent due à la pollution de leur eau quotidient.",
           "gps": {
             "x": -29.949648,
             "y": -70.401520
@@ -1372,8 +1353,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85896097492b69d95dc7",
@@ -1408,7 +1388,7 @@
         "localisation": {
           "name": "Acier",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 38.302502,
             "y": 100.670732
@@ -1420,15 +1400,14 @@
         "localisation": {
           "name": "Alluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 40.818820,
             "y": 118.982310
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85896097492b69d95dc8",
@@ -1475,15 +1454,14 @@
         "localisation": {
           "name": "Alluminium",
           "codePays": "Chine",
-          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages de la zone. De plus l'eau des bassins contient maintenant, toute sorte de produit chimique, toxique, mais aussi radioactive qui peut provoquer le cancer si ingéré.",
+          "description": "Le traitement des minerais produit de la pollution toxique qui va empoisonner les fermes et les villages aux alentour des mines. De plus l'eau des bassins contient, maintenant, toute sorte de produits toxique et radioactif ce qui peut provoquer des cancers si ingéré.",
           "gps": {
             "x": 40.818820,
             "y": 118.982310
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85896097492b69d95dc9",
@@ -1513,8 +1491,7 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   },
   {
     "_id": "5e9f85896097492b69d95dca",
@@ -1544,7 +1521,6 @@
           }
         }
       }
-    ],
-    "__v": 0
+    ]
   }
 ]
