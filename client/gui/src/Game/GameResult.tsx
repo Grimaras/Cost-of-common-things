@@ -119,7 +119,7 @@ export const GameResult = () => {
                        </div>
                         { gameId &&
                         <a href={GET_BACKEND_URL() + "details?gId=" + gameId }>
-                            <button className="button is-info" style={{ fontSize: 25, marginTop: 20 }}>
+                            <button className="button is-info" style={{ fontSize: 25, marginTop: -10 }}>
                                 Voir les détails!
                             </button>
                         </a>
