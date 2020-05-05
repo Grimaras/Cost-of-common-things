@@ -112,7 +112,7 @@ export const GameResult = () => {
                                 <p className="title is-4">Quick facts :</p>
                                 <div className="">
                                     <p>Dans le monde, en 2017, 1.56 milliards de téléphones ont été vendu soit 50 par secondes.</p>
-
+                                    <p>Il faut, en moyenne, 5 ans pour amortir le coût en CO2 d'un téléphone alors que leur durée de vie moyenne est de 2 ans.</p>
                                 </div>
                             </article>
                         </div>
