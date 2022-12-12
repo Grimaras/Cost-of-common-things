@@ -18,7 +18,7 @@
   "homepage": "https://gitlab.com/Grimaras/cost-of-common-things-client#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "highcharts": "^8.0.4",
     "highcharts-react-official": "^3.0.0",
     "lodash": "^4.17.15",
